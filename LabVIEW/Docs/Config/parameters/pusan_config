@@ -1,0 +1,332 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>19.0.1f1</Version>
+<Cluster>
+<Name></Name>
+<NumElts>4</NumElts>
+<Cluster>
+<Name>Global_comm</Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>AGV</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>Port</Name>
+<RefKind>VISA</RefKind>
+<Val>COM28</Val>
+</Refnum>
+<U32>
+<Name>Baud rate</Name>
+<Val>115200</Val>
+</U32>
+<EW>
+<Name>Model</Name>
+<Choice>ERP42 mini</Choice>
+<Choice>ERP42</Choice>
+<Choice>Wecar</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>GPS</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>Port</Name>
+<RefKind>VISA</RefKind>
+<Val>COM4</Val>
+</Refnum>
+<U32>
+<Name>Baud rate</Name>
+<Val>115200</Val>
+</U32>
+<EW>
+<Name>Model</Name>
+<Choice>uBlox M8P</Choice>
+<Choice>uBlox F9P</Choice>
+<Choice>Novatel</Choice>
+<Choice>USB module</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
+<Cluster>
+<Name>Camera</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>Port</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>IMAQdx</RefType>
+<Val>cam0</Val>
+</Refnum>
+<String>
+<Name>Camera model</Name>
+<Val></Val>
+</String>
+<Path>
+<Name>Camera file Path</Name>
+<Val>C:\AGV\Config\default.icd</Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>LIDAR</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>Port</Name>
+<RefKind>VISA</RefKind>
+<Val>COM6</Val>
+</Refnum>
+<U32>
+<Name>Baud rate</Name>
+<Val>115200</Val>
+</U32>
+<U32>
+<Name>Speed</Name>
+<Val>300</Val>
+</U32>
+</Cluster>
+<Cluster>
+<Name>Test Info</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>date</Name>
+<Val>20-04-28, 11:22:28</Val>
+</String>
+<String>
+<Name>custom</Name>
+<Val>ybbaek</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>File info</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Path</Name>
+<Val>C:\AGV</Val>
+</Path>
+<String>
+<Name>File Name</Name>
+<Val>pusan</Val>
+</String>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Global_camera</Name>
+<NumElts>14</NumElts>
+<Path>
+<Name>camera file path</Name>
+<Val>C:\AGV\Config\default.icd</Val>
+</Path>
+<Cluster>
+<Name>ROI-clamp</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>Global Rectangle</Name>
+<Dimsize>4</Dimsize>
+<I32>
+<Name></Name>
+<Val>24</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>222</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>766</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>308</Val>
+</I32>
+</Array>
+<Array>
+<Name>Contours</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name></Name>
+<NumElts>3</NumElts>
+<U32>
+<Name>Contour Type</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>ROI Type</Name>
+<Val>3</Val>
+</U32>
+<Array>
+<Name>Points</Name>
+<Dimsize>4</Dimsize>
+<I32>
+<Name></Name>
+<Val>24</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>222</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>766</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>308</Val>
+</I32>
+</Array>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>Clamp Settings</Name>
+<NumElts>8</NumElts>
+<I32>
+<Name>Contrast</Name>
+<Val>43</Val>
+</I32>
+<I32>
+<Name>Filter width</Name>
+<Val>5</Val>
+</I32>
+<I32>
+<Name>Steepness</Name>
+<Val>2</Val>
+</I32>
+<U32>
+<Name>Subsampling Ratio</Name>
+<Val>14</Val>
+</U32>
+<Boolean>
+<Name>Show Search Area</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Show Search Lines</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Show Edges Found</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Show Result</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<SGL>
+<Name>Angle deg</Name>
+<Val>39.00000</Val>
+</SGL>
+<Cluster>
+<Name>Image Size</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>x</Name>
+<Val>864</Val>
+</I32>
+<I32>
+<Name>y</Name>
+<Val>480</Val>
+</I32>
+</Cluster>
+<DBL>
+<Name>x-center</Name>
+<Val>432.00000000000000</Val>
+</DBL>
+<Array>
+<Name>start_pt-l-out</Name>
+<Dimsize>5</Dimsize>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>432</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>480</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>359606</Val>
+</I32>
+</Array>
+<Array>
+<Name>start_pt-r-out</Name>
+<Dimsize>5</Dimsize>
+<I32>
+<Name></Name>
+<Val>432</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>864</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>480</Val>
+</I32>
+<I32>
+<Name></Name>
+<Val>359606</Val>
+</I32>
+</Array>
+<DBL>
+<Name>weight-ver-l</Name>
+<Val>0.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>weight-ver-r</Name>
+<Val>0.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>weight_hor</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<SGL>
+<Name>Replace Value</Name>
+<Val>120.00000</Val>
+</SGL>
+<Cluster>
+<Name>Threshold Range</Name>
+<NumElts>2</NumElts>
+<SGL>
+<Name>Lower value</Name>
+<Val>105.23810</Val>
+</SGL>
+<SGL>
+<Name>Upper value</Name>
+<Val>178.09525</Val>
+</SGL>
+</Cluster>
+<U32>
+<Name>video mode</Name>
+<Val>0</Val>
+</U32>
+</Cluster>
+<Cluster>
+<Name>Global_lidar</Name>
+<NumElts>1</NumElts>
+<U16>
+<Name>speed</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+<Cluster>
+<Name>Global_gps</Name>
+<NumElts>1</NumElts>
+<DBL>
+<Name>Numeric Control</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+</LVData>

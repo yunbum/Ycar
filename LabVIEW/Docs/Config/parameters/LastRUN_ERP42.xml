@@ -1,0 +1,328 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>19.0.1f1</Version>
+<Cluster>
+<Name>Settings</Name>
+<NumElts>17</NumElts>
+<Cluster>
+<Name>VLP16 cfg</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>h range</Name>
+<NumElts>2</NumElts>
+<I16>
+<Name></Name>
+<Val>32</Val>
+</I16>
+<I16>
+<Name></Name>
+<Val>-30</Val>
+</I16>
+</Cluster>
+<Cluster>
+<Name>v range</Name>
+<NumElts>2</NumElts>
+<I8>
+<Name></Name>
+<Val>2</Val>
+</I8>
+<I8>
+<Name></Name>
+<Val>-3</Val>
+</I8>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>TIM571 cfg</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>IP</Name>
+<Val></Val>
+</String>
+<Cluster>
+<Name>h range</Name>
+<NumElts>2</NumElts>
+<I16>
+<Name></Name>
+<Val>39</Val>
+</I16>
+<I16>
+<Name></Name>
+<Val>-31</Val>
+</I16>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>AGV cfg</Name>
+<NumElts>2</NumElts>
+<Refnum>
+<Name>Port</Name>
+<RefKind>VISA</RefKind>
+<Val>COM6</Val>
+</Refnum>
+<Cluster>
+<Name>speed limits</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>limit_linear-v</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>limit_angular-v</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>GPS cfg</Name>
+<NumElts>3</NumElts>
+<Refnum>
+<Name>PwrPak7 Port</Name>
+<RefKind>VISA</RefKind>
+<Val>COM14</Val>
+</Refnum>
+<String>
+<Name>heading select</Name>
+<Val>192.168.0.2</Val>
+</String>
+<Array>
+<Name>mode select</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>¿ø¼Ò</Name>
+<Val></Val>
+</String>
+</Array>
+</Cluster>
+<Cluster>
+<Name>PID cfg</Name>
+<NumElts>3</NumElts>
+<Cluster>
+<Name>PID gains</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>proportional gain (Kc)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>integral time (Ti, min)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>derivative time (Td, min)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>PID limits</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>output high</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>output low</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<U32>
+<Name>dt pid</Name>
+<Val>100</Val>
+</U32>
+</Cluster>
+<Cluster>
+<Name>Lookahead cfg</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>lookahead pts n</Name>
+<Val>64.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>lookahead distance</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Obstacle limit range</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>RL range</Name>
+<Val>4.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Point limit</Name>
+<Val>2999.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>State machine parameter</Name>
+<NumElts>1</NumElts>
+<DBL>
+<Name>angle adjust limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>waypoint group</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Waypoint array</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>waypoint set</Name>
+<NumElts>3</NumElts>
+<Boolean>
+<Name>sel</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>inv</Name>
+<Val>0</Val>
+</Boolean>
+<Path>
+<Name>path</Name>
+<Val>C:\AGV\Config\waypoint\wpt_polypusan_20200731.txt</Val>
+</Path>
+</Cluster>
+</Array>
+</Cluster>
+<Cluster>
+<Name>State machine cfg</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name> turn angular speed</Name>
+<Val>0.10000000000000</Val>
+</DBL>
+<DBL>
+<Name>move linear speed</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>decrease factor linear speed</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>adjust angle margin</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>camera cfg</Name>
+<NumElts>2</NumElts>
+<Refnum>
+<Name>Port</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>IMAQdx</RefType>
+<Val>cam2</Val>
+</Refnum>
+<Path>
+<Name>Camera file</Name>
+<Val>C:\AGV\Config\camra\C920_864x480_30fps_bw.icd</Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Clamp Settings</Name>
+<NumElts>8</NumElts>
+<I32>
+<Name>Contrast</Name>
+<Val>74</Val>
+</I32>
+<I32>
+<Name>Filter width</Name>
+<Val>17</Val>
+</I32>
+<I32>
+<Name>Steepness</Name>
+<Val>3</Val>
+</I32>
+<U32>
+<Name>Subsampling Ratio</Name>
+<Val>11</Val>
+</U32>
+<Boolean>
+<Name>Show Search Area</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Show Search Lines</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Show Edges Found</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Show Result</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>ROI-clamp</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>Global Rectangle</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name></Name>
+<Val></Val>
+</I32>
+</Array>
+<Array>
+<Name>Contours</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name></Name>
+<NumElts>3</NumElts>
+<U32>
+<Name>Contour Type</Name>
+<Val></Val>
+</U32>
+<U32>
+<Name>ROI Type</Name>
+<Val></Val>
+</U32>
+<Array>
+<Name>Points</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name></Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+</Array>
+</Cluster>
+<DBL>
+<Name>x-center</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Image Size</Name>
+<NumElts>2</NumElts>
+<I32>
+<Name>x</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>y</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<SGL>
+<Name>Angle deg</Name>
+<Val>0.00000</Val>
+</SGL>
+<Cluster>
+<Name>Threshold Range</Name>
+<NumElts>2</NumElts>
+<SGL>
+<Name>Lower value</Name>
+<Val>0.00000</Val>
+</SGL>
+<SGL>
+<Name>Upper value</Name>
+<Val>0.00000</Val>
+</SGL>
+</Cluster>
+</Cluster>
+</LVData>

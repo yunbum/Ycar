@@ -1,0 +1,81 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>19.0.1f1</Version>
+<Cluster>
+<Name>Global_var</Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>ERP42mini</Name>
+<NumElts>2</NumElts>
+<Refnum>
+<Name>Port</Name>
+<RefKind>VISA</RefKind>
+<Val>COM4</Val>
+</Refnum>
+<DBL>
+<Name>Baud rate</Name>
+<Val>115200.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>GPS</Name>
+<NumElts>2</NumElts>
+<Refnum>
+<Name>Port</Name>
+<RefKind>VISA</RefKind>
+<Val>COM3</Val>
+</Refnum>
+<DBL>
+<Name>Baud rate</Name>
+<Val>115200.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Camera</Name>
+<NumElts>1</NumElts>
+<Refnum>
+<Name>Port</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>IMAQdx</RefType>
+<Val>cam0</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>LIDAR</Name>
+<NumElts>2</NumElts>
+<Refnum>
+<Name>Port</Name>
+<RefKind>VISA</RefKind>
+<Val>COM8</Val>
+</Refnum>
+<DBL>
+<Name>Baud rate</Name>
+<Val>115200.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Test Info</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>date</Name>
+<Val>16-01-20, 10:52:59</Val>
+</String>
+<String>
+<Name>custom</Name>
+<Val>ybbaek</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Log / Config file path</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Path</Name>
+<Val>C:\AGV</Val>
+</Path>
+<String>
+<Name>File Name</Name>
+<Val>erp42mini-test1</Val>
+</String>
+</Cluster>
+</Cluster>
+</LVData>
