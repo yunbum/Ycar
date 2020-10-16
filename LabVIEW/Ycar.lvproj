@@ -48,7 +48,6 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Clear UID.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/SymbolTable/Clear UID.vi"/>
 				<Item Name="Close Input Device.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Close Input Device.vi"/>
 				<Item Name="closeJoystick.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/closeJoystick.vi"/>
 				<Item Name="closeKeyboard.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/closeKeyboard.vi"/>
@@ -143,7 +142,6 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVSceneTextAlignment.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVSceneTextAlignment.ctl"/>
 				<Item Name="LVTextureCoordinateArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVTextureCoordinateArrayTypeDef.ctl"/>
-				<Item Name="MC_LocalVariableDefStatement_Display.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/LocalVariableDefStatement/MC_LocalVariableDefStatement_Display.vi"/>
 				<Item Name="mouseAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/mouseAcquire.vi"/>
 				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
@@ -159,9 +157,6 @@
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
-				<Item Name="NIMS_Finalize Error.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/ErrorHandling/NIMS_Finalize Error.vi"/>
-				<Item Name="NIMS_NodeEndStatement_Output.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/NodeEndStatement/NIMS_NodeEndStatement_Output.vi"/>
-				<Item Name="NIMS_RunTimeType_From StrictType (excl LVString).vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/RunTimeType/NIMS_RunTimeType_From StrictType (excl LVString).vi"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
@@ -191,7 +186,6 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="UID Generator.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Managers/WorkSpace/UID Generator.vi"/>
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
@@ -210,52 +204,17 @@
 			<Item Name="data.ctl" Type="VI" URL="../Ctrl/data.ctl"/>
 			<Item Name="erp42_receive_packet.ctl" Type="VI" URL="../Ctrl/erp42_receive_packet.ctl"/>
 			<Item Name="error_modules.ctl" Type="VI" URL="../Ctrl/error_modules.ctl"/>
-			<Item Name="Extract Sentence (SubVI).vi" Type="VI" URL="../PwrPak7/GNSS Data(SubVI)/Extract Sentence (SubVI).vi"/>
-			<Item Name="Extract Sentence (SubVI).vi" Type="VI" URL="../Subvi/old/PwrPak7/GNSS Data(SubVI)/Extract Sentence (SubVI).vi"/>
-			<Item Name="Feedback_Read (SubVI).vi" Type="VI" URL="../Subvi/old/AGV/Feedback_Read (SubVI).vi"/>
 			<Item Name="fgv_agv-232.vi" Type="VI" URL="../AGV/Scout/fgv_agv-232.vi"/>
-			<Item Name="fgv_agv-232.vi" Type="VI" URL="../Subvi/old/AGV/fgv_agv-232.vi"/>
 			<Item Name="fgv_agv_data.vi" Type="VI" URL="../AGV/Scout/fgv_agv_data.vi"/>
 			<Item Name="fgv_agv_position.vi" Type="VI" URL="../AGV/fgv_agv_position.vi"/>
 			<Item Name="fgv_agv_position.vi" Type="VI" URL="../Scout/fgv_agv_position.vi"/>
-			<Item Name="fgv_ctrl-ref.vi" Type="VI" URL="../Subvi/old/Subvi/fgv_ctrl-ref.vi"/>
-			<Item Name="fgv_gps_config.vi" Type="VI" URL="../GPS/Subvi/fgv_gps_config.vi"/>
-			<Item Name="fgv_inrange-lidar-data_buf.vi" Type="VI" URL="../Subvi/old/Subvi/fgv_inrange-lidar-data_buf.vi"/>
-			<Item Name="fgv_inrange-lidar-data_check.vi" Type="VI" URL="../Subvi/old/Subvi/fgv_inrange-lidar-data_check.vi"/>
-			<Item Name="fgv_lidars-databuf.vi" Type="VI" URL="../Subvi/old/Subvi/fgv_lidars-databuf.vi"/>
-			<Item Name="fgv_lidars-img.vi" Type="VI" URL="../Subvi/fgv_lidars-img.vi"/>
-			<Item Name="fgv_lidars-img.vi" Type="VI" URL="../Subvi/old/Subvi/fgv_lidars-img.vi"/>
-			<Item Name="fgv_module_error.vi" Type="VI" URL="../Subvi/old/Subvi/fgv_module_error.vi"/>
-			<Item Name="fgv_obstacle_data.vi" Type="VI" URL="../AGV/Subvi/fgv_obstacle_data.vi"/>
-			<Item Name="fgv_obstacle_data.vi" Type="VI" URL="../Subvi/old/Subvi/fgv_obstacle_data.vi"/>
-			<Item Name="fgv_PwrPak7-232.vi" Type="VI" URL="../AGV/PwrPak7/fgv_PwrPak7-232.vi"/>
-			<Item Name="fgv_PwrPak7-232.vi" Type="VI" URL="../Subvi/old/PwrPak7/fgv_PwrPak7-232.vi"/>
-			<Item Name="fgv_PwrPak7-data.vi" Type="VI" URL="../Subvi/old/PwrPak7/fgv_PwrPak7-data.vi"/>
-			<Item Name="fgv_status-display.vi" Type="VI" URL="../Subvi/old/Subvi/fgv_status-display.vi"/>
-			<Item Name="fgv_stop-point_databuf.vi" Type="VI" URL="../fgv_stop-point_databuf.vi"/>
 			<Item Name="fgv_tcp_remote.vi" Type="VI" URL="../Network/fgv_tcp_remote.vi"/>
-			<Item Name="fgv_tim571_setting.vi" Type="VI" URL="../Subvi/old/Tim571/fgv_tim571_setting.vi"/>
 			<Item Name="fgv_udp_lidar-data.vi" Type="VI" URL="../Network/fgv_udp_lidar-data.vi"/>
 			<Item Name="fgv_udp_remote-cmd.vi" Type="VI" URL="../Network/fgv_udp_remote-cmd.vi"/>
-			<Item Name="fgv_vlp16_setting.vi" Type="VI" URL="../Subvi/old/VLP16/fgv_vlp16_setting.vi"/>
-			<Item Name="fgv_waypoint_data.vi" Type="VI" URL="../AGV/Subvi/fgv_waypoint_data.vi"/>
-			<Item Name="fgv_waypoint_data.vi" Type="VI" URL="../Subvi/old/Subvi/fgv_waypoint_data.vi"/>
-			<Item Name="From Sentence DualHeading(SubVI).vi" Type="VI" URL="../PwrPak7/GNSS Data(SubVI)/From Sentence DualHeading(SubVI).vi"/>
-			<Item Name="From Sentence DualHeading(SubVI).vi" Type="VI" URL="../Subvi/old/PwrPak7/GNSS Data(SubVI)/From Sentence DualHeading(SubVI).vi"/>
-			<Item Name="From Sentence INSPVAXA(SubVI).vi" Type="VI" URL="../PwrPak7/GNSS Data(SubVI)/From Sentence INSPVAXA(SubVI).vi"/>
-			<Item Name="From Sentence INSPVAXA(SubVI).vi" Type="VI" URL="../Subvi/old/PwrPak7/GNSS Data(SubVI)/From Sentence INSPVAXA(SubVI).vi"/>
-			<Item Name="global_setting.vi" Type="VI" URL="../AGV/Subvi/global_setting.vi"/>
-			<Item Name="global_setting.vi" Type="VI" URL="../Subvi/old/Subvi/global_setting.vi"/>
 			<Item Name="Global_val.vi" Type="VI" URL="../Vision/Camera/Global_val.vi"/>
-			<Item Name="gps-232.ctl" Type="VI" URL="../AGV/Ctrl/gps-232.ctl"/>
 			<Item Name="gps-232.ctl" Type="VI" URL="../Ctrl/gps-232.ctl"/>
-			<Item Name="gps-232.ctl" Type="VI" URL="../Subvi/old/Ctrl/gps-232.ctl"/>
 			<Item Name="gps-databuf.ctl" Type="VI" URL="../Ctrl/gps-databuf.ctl"/>
-			<Item Name="gps-databuf.ctl" Type="VI" URL="../Subvi/old/Ctrl/gps-databuf.ctl"/>
-			<Item Name="GPSCoorTrans(SubVI).vi" Type="VI" URL="../Subvi/old/PwrPak7/GPS(SubVI)/GPSCoorTrans(SubVI).vi"/>
-			<Item Name="Heading_Coor.vi" Type="VI" URL="../Subvi/old/PwrPak7/GPS(SubVI)/Heading_Coor.vi"/>
 			<Item Name="log_buffq.ctl" Type="VI" URL="../Ctrl/log_buffq.ctl"/>
-			<Item Name="logfile-name.vi" Type="VI" URL="../GPS/Subvi/logfile-name.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="main_system.ctl" Type="VI" URL="../Ctrl/main_system.ctl"/>
@@ -271,13 +230,7 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="obstacle_info.ctl" Type="VI" URL="../AGV/Ctrl/obstacle_info.ctl"/>
 			<Item Name="obstacle_info.ctl" Type="VI" URL="../Ctrl/obstacle_info.ctl"/>
-			<Item Name="obstacle_info.ctl" Type="VI" URL="../Subvi/old/Ctrl/obstacle_info.ctl"/>
-			<Item Name="Parse Data DualHeading(SubVI).vi" Type="VI" URL="../PwrPak7/GNSS Data(SubVI)/Parse Data DualHeading(SubVI).vi"/>
-			<Item Name="Parse Data DualHeading(SubVI).vi" Type="VI" URL="../Subvi/old/PwrPak7/GNSS Data(SubVI)/Parse Data DualHeading(SubVI).vi"/>
-			<Item Name="Parse Data INSPVAX(SubVI).vi" Type="VI" URL="../PwrPak7/GNSS Data(SubVI)/Parse Data INSPVAX(SubVI).vi"/>
-			<Item Name="Parse Data INSPVAX(SubVI).vi" Type="VI" URL="../Subvi/old/PwrPak7/GNSS Data(SubVI)/Parse Data INSPVAX(SubVI).vi"/>
 			<Item Name="pid-cfg.ctl" Type="VI" URL="../Ctrl/pid-cfg.ctl"/>
 			<Item Name="pid-in-params.ctl" Type="VI" URL="../Ctrl/pid-in-params.ctl"/>
 			<Item Name="pid-status.ctl" Type="VI" URL="../Ctrl/pid-status.ctl"/>
@@ -290,48 +243,19 @@
 			<Item Name="state.ctl" Type="VI" URL="../Ctrl/state.ctl"/>
 			<Item Name="status.ctl" Type="VI" URL="../Ctrl/status.ctl"/>
 			<Item Name="sub_appcomm_data.vi" Type="VI" URL="../Network/sub_appcomm_data.vi"/>
-			<Item Name="sub_cal-b_linear.vi" Type="VI" URL="../AGV/sub_cal-b_linear.vi"/>
-			<Item Name="sub_center_pt.vi" Type="VI" URL="../AGV/Subvi/sub_center_pt.vi"/>
-			<Item Name="sub_data-valid_check.vi" Type="VI" URL="../PwrPak7/sub_data-valid_check.vi"/>
-			<Item Name="sub_dt-check.vi" Type="VI" URL="../AGV/Subvi/sub_dt-check.vi"/>
-			<Item Name="sub_error_ignore.vi" Type="VI" URL="../Subvi/old/Subvi/sub_error_ignore.vi"/>
 			<Item Name="sub_global-stop_agv.vi" Type="VI" URL="../Subvi/old/Subvi/sub_global-stop_agv.vi"/>
-			<Item Name="sub_heading-data_check.vi" Type="VI" URL="../PwrPak7/sub_heading-data_check.vi"/>
-			<Item Name="sub_lidar_to_img.vi" Type="VI" URL="../Subvi/old/Subvi/sub_lidar_to_img.vi"/>
 			<Item Name="sub_log_agv.vi" Type="VI" URL="../AGV/Subvi/sub_log_agv.vi"/>
-			<Item Name="sub_log_agv.vi" Type="VI" URL="../Subvi/old/Subvi/sub_log_agv.vi"/>
-			<Item Name="sub_log_basic.vi" Type="VI" URL="../GPS/Subvi/sub_log_basic.vi"/>
 			<Item Name="sub_log_path-set.vi" Type="VI" URL="../Subvi/old/Subvi/sub_log_path-set.vi"/>
 			<Item Name="sub_logfile.vi" Type="VI" URL="../Lidar/RPLidar/sub_logfile.vi"/>
-			<Item Name="sub_lookahead_calculate.vi" Type="VI" URL="../AGV/Subvi/sub_lookahead_calculate.vi"/>
 			<Item Name="sub_main_appcomm.vi" Type="VI" URL="../Network/sub_main_appcomm.vi"/>
-			<Item Name="sub_main_tcpip-agv.vi" Type="VI" URL="../Subvi/old/Subvi/sub_main_tcpip-agv.vi"/>
-			<Item Name="sub_main_tim571.vi" Type="VI" URL="../Subvi/old/Tim571/sub_main_tim571.vi"/>
 			<Item Name="sub_main_udp.vi" Type="VI" URL="../Network/sub_main_udp.vi"/>
-			<Item Name="sub_main_vlp16.vi" Type="VI" URL="../Subvi/old/VLP16/sub_main_vlp16.vi"/>
-			<Item Name="sub_measure_distance.vi" Type="VI" URL="../sub_measure_distance.vi"/>
-			<Item Name="sub_measure_distance.vi" Type="VI" URL="../AGV/Subvi/sub_measure_distance.vi"/>
 			<Item Name="sub_measure_slope.vi" Type="VI" URL="../Subvi/sub_measure_slope.vi"/>
-			<Item Name="sub_picture_gnss-deg.vi" Type="VI" URL="../GPS/Subvi/sub_picture_gnss-deg.vi"/>
-			<Item Name="sub_picture_gnss-deg.vi" Type="VI" URL="../Lidar/Subvi/sub_picture_gnss-deg.vi"/>
-			<Item Name="sub_slope2angle.vi" Type="VI" URL="../PwrPak7/sub_slope2angle.vi"/>
-			<Item Name="sub_slope_calculate.vi" Type="VI" URL="../sub_slope_calculate.vi"/>
-			<Item Name="sub_slope_calculate.vi" Type="VI" URL="../AGV/Subvi/sub_slope_calculate.vi"/>
-			<Item Name="sub_slope_calculate.vi" Type="VI" URL="../GPS/Subvi/sub_slope_calculate.vi"/>
-			<Item Name="sub_usb_hw-list.vi" Type="VI" URL="../Subvi/old/Subvi/sub_usb_hw-list.vi"/>
 			<Item Name="sub_vlp16_data-range-setting.vi" Type="VI" URL="../Lidar/VLP16/sub_vlp16_data-range-setting.vi"/>
 			<Item Name="system_hw.ctl" Type="VI" URL="../Ctrl/system_hw.ctl"/>
 			<Item Name="tcp-srv.ctl" Type="VI" URL="../Ctrl/tcp-srv.ctl"/>
 			<Item Name="tim571-databuf.ctl" Type="VI" URL="../Ctrl/tim571-databuf.ctl"/>
 			<Item Name="vlp-16 cmd.ctl" Type="VI" URL="../Ctrl/vlp-16 cmd.ctl"/>
-			<Item Name="waypoint_buf.ctl" Type="VI" URL="../AGV/Ctrl/waypoint_buf.ctl"/>
 			<Item Name="waypoint_buf.ctl" Type="VI" URL="../Ctrl/waypoint_buf.ctl"/>
-			<Item Name="waypoint_buf.ctl" Type="VI" URL="../Subvi/old/Ctrl/waypoint_buf.ctl"/>
-			<Item Name="wgs-84 to tm.vi" Type="VI" URL="../AGV/PwrPak7/GPS(SubVI)/wgs-84 to tm.vi"/>
-			<Item Name="wgs-84 to tm.vi" Type="VI" URL="../GPS/GPS/wgs-84 to tm.vi"/>
-			<Item Name="wgs-84 to tm.vi" Type="VI" URL="../Lidar/GPS/wgs-84 to tm.vi"/>
-			<Item Name="wgs-84 to tm.vi" Type="VI" URL="../PwrPak7/GPS(SubVI)/wgs-84 to tm.vi"/>
-			<Item Name="wgs-84 to tm.vi" Type="VI" URL="../Subvi/old/PwrPak7/GPS(SubVI)/wgs-84 to tm.vi"/>
 		</Item>
 		<Item Name="빌드 스펙" Type="Build"/>
 	</Item>
