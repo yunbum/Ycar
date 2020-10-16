@@ -64,7 +64,6 @@
 				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
 				<Item Name="Draw Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Line.vi"/>
-				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
 				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
@@ -174,7 +173,6 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
@@ -200,14 +198,11 @@
 			<Item Name="agv_cmd_v.ctl" Type="VI" URL="../Ctrl/agv_cmd_v.ctl"/>
 			<Item Name="agv_status.ctl" Type="VI" URL="../Ctrl/agv_status.ctl"/>
 			<Item Name="clamp-result_cmd.ctl" Type="VI" URL="../Ctrl/clamp-result_cmd.ctl"/>
-			<Item Name="control.ctl" Type="VI" URL="../AGV/ctrl/control.ctl"/>
 			<Item Name="data.ctl" Type="VI" URL="../Ctrl/data.ctl"/>
 			<Item Name="erp42_receive_packet.ctl" Type="VI" URL="../Ctrl/erp42_receive_packet.ctl"/>
 			<Item Name="error_modules.ctl" Type="VI" URL="../Ctrl/error_modules.ctl"/>
 			<Item Name="fgv_agv-232.vi" Type="VI" URL="../AGV/Scout/fgv_agv-232.vi"/>
 			<Item Name="fgv_agv_data.vi" Type="VI" URL="../AGV/Scout/fgv_agv_data.vi"/>
-			<Item Name="fgv_agv_position.vi" Type="VI" URL="../AGV/fgv_agv_position.vi"/>
-			<Item Name="fgv_agv_position.vi" Type="VI" URL="../Scout/fgv_agv_position.vi"/>
 			<Item Name="fgv_tcp_remote.vi" Type="VI" URL="../Network/fgv_tcp_remote.vi"/>
 			<Item Name="fgv_udp_lidar-data.vi" Type="VI" URL="../Network/fgv_udp_lidar-data.vi"/>
 			<Item Name="fgv_udp_remote-cmd.vi" Type="VI" URL="../Network/fgv_udp_remote-cmd.vi"/>
@@ -236,16 +231,11 @@
 			<Item Name="pid-status.ctl" Type="VI" URL="../Ctrl/pid-status.ctl"/>
 			<Item Name="points.ctl" Type="VI" URL="../Ctrl/points.ctl"/>
 			<Item Name="protocol_erp42.ctl" Type="VI" URL="../Ctrl/protocol_erp42.ctl"/>
-			<Item Name="PurePursuit (SubVI).vi" Type="VI" URL="../Subvi/old/PathGeneration/PurePursuit (SubVI).vi"/>
 			<Item Name="rplidar_cmd.ctl" Type="VI" URL="../Ctrl/rplidar_cmd.ctl"/>
 			<Item Name="simple counter.ctl" Type="VI" URL="../Ctrl/simple counter.ctl"/>
-			<Item Name="SoutWork.ctl" Type="VI" URL="../Subvi/old/Ctrl/SoutWork.ctl"/>
 			<Item Name="state.ctl" Type="VI" URL="../Ctrl/state.ctl"/>
 			<Item Name="status.ctl" Type="VI" URL="../Ctrl/status.ctl"/>
 			<Item Name="sub_appcomm_data.vi" Type="VI" URL="../Network/sub_appcomm_data.vi"/>
-			<Item Name="sub_global-stop_agv.vi" Type="VI" URL="../Subvi/old/Subvi/sub_global-stop_agv.vi"/>
-			<Item Name="sub_log_agv.vi" Type="VI" URL="../AGV/Subvi/sub_log_agv.vi"/>
-			<Item Name="sub_log_path-set.vi" Type="VI" URL="../Subvi/old/Subvi/sub_log_path-set.vi"/>
 			<Item Name="sub_logfile.vi" Type="VI" URL="../Lidar/RPLidar/sub_logfile.vi"/>
 			<Item Name="sub_main_appcomm.vi" Type="VI" URL="../Network/sub_main_appcomm.vi"/>
 			<Item Name="sub_main_udp.vi" Type="VI" URL="../Network/sub_main_udp.vi"/>
