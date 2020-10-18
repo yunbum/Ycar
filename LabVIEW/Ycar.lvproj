@@ -203,9 +203,6 @@
 			<Item Name="error_modules.ctl" Type="VI" URL="../Ctrl/error_modules.ctl"/>
 			<Item Name="fgv_agv-232.vi" Type="VI" URL="../AGV/Scout/fgv_agv-232.vi"/>
 			<Item Name="fgv_agv_data.vi" Type="VI" URL="../AGV/Scout/fgv_agv_data.vi"/>
-			<Item Name="fgv_hw-info.vi" Type="VI" URL="../Subvi/joystick/fgv_hw-info.vi"/>
-			<Item Name="fgv_joystick-info.vi" Type="VI" URL="../Subvi/fgv_joystick-info.vi"/>
-			<Item Name="fgv_joystick.vi" Type="VI" URL="../Subvi/fgv_joystick.vi"/>
 			<Item Name="fgv_tcp_remote.vi" Type="VI" URL="../Network/fgv_tcp_remote.vi"/>
 			<Item Name="fgv_udp_lidar-data.vi" Type="VI" URL="../Network/fgv_udp_lidar-data.vi"/>
 			<Item Name="fgv_udp_remote-cmd.vi" Type="VI" URL="../Network/fgv_udp_remote-cmd.vi"/>
