@@ -13,16 +13,25 @@
 		<Item Name="AGV" Type="Folder" URL="../AGV">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Ctrl" Type="Folder" URL="../Ctrl">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="GPS" Type="Folder" URL="../GPS">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Lidar" Type="Folder" URL="../Lidar">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Network" Type="Folder" URL="../Network">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Subvi" Type="Folder" URL="../Subvi">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Vision" Type="Folder" URL="../Vision">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Waypoint" Type="Folder" URL="../Waypoint">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
@@ -162,6 +171,10 @@
 				<Item Name="Overlay Line with Arrows.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Clamp.llb/Overlay Line with Arrows.vi"/>
 				<Item Name="Overlay Results (Clamp).vi" Type="VI" URL="/&lt;vilib&gt;/vision/Clamp.llb/Overlay Results (Clamp).vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
@@ -173,6 +186,7 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
@@ -195,24 +209,12 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="agv_cmd_v.ctl" Type="VI" URL="../Ctrl/agv_cmd_v.ctl"/>
-			<Item Name="agv_status.ctl" Type="VI" URL="../Ctrl/agv_status.ctl"/>
-			<Item Name="clamp-result_cmd.ctl" Type="VI" URL="../Ctrl/clamp-result_cmd.ctl"/>
-			<Item Name="data.ctl" Type="VI" URL="../Ctrl/data.ctl"/>
-			<Item Name="erp42_receive_packet.ctl" Type="VI" URL="../Ctrl/erp42_receive_packet.ctl"/>
-			<Item Name="error_modules.ctl" Type="VI" URL="../Ctrl/error_modules.ctl"/>
 			<Item Name="fgv_agv-232.vi" Type="VI" URL="../AGV/Scout/fgv_agv-232.vi"/>
 			<Item Name="fgv_agv_data.vi" Type="VI" URL="../AGV/Scout/fgv_agv_data.vi"/>
-			<Item Name="fgv_tcp_remote.vi" Type="VI" URL="../Network/fgv_tcp_remote.vi"/>
-			<Item Name="fgv_udp_lidar-data.vi" Type="VI" URL="../Network/fgv_udp_lidar-data.vi"/>
-			<Item Name="fgv_udp_remote-cmd.vi" Type="VI" URL="../Network/fgv_udp_remote-cmd.vi"/>
 			<Item Name="Global_val.vi" Type="VI" URL="../Vision/Camera/Global_val.vi"/>
-			<Item Name="gps-232.ctl" Type="VI" URL="../Ctrl/gps-232.ctl"/>
-			<Item Name="gps-databuf.ctl" Type="VI" URL="../Ctrl/gps-databuf.ctl"/>
-			<Item Name="log_buffq.ctl" Type="VI" URL="../Ctrl/log_buffq.ctl"/>
+			<Item Name="GMap.NET.WindowsForms.dll" Type="Document" URL="../Gmap/dll/GMap.NET.WindowsForms.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
-			<Item Name="main_system.ctl" Type="VI" URL="../Ctrl/main_system.ctl"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -225,27 +227,9 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="obstacle_info.ctl" Type="VI" URL="../Ctrl/obstacle_info.ctl"/>
-			<Item Name="pid-cfg.ctl" Type="VI" URL="../Ctrl/pid-cfg.ctl"/>
-			<Item Name="pid-in-params.ctl" Type="VI" URL="../Ctrl/pid-in-params.ctl"/>
-			<Item Name="pid-status.ctl" Type="VI" URL="../Ctrl/pid-status.ctl"/>
-			<Item Name="points.ctl" Type="VI" URL="../Ctrl/points.ctl"/>
-			<Item Name="protocol_erp42.ctl" Type="VI" URL="../Ctrl/protocol_erp42.ctl"/>
-			<Item Name="rplidar_cmd.ctl" Type="VI" URL="../Ctrl/rplidar_cmd.ctl"/>
-			<Item Name="simple counter.ctl" Type="VI" URL="../Ctrl/simple counter.ctl"/>
-			<Item Name="state.ctl" Type="VI" URL="../Ctrl/state.ctl"/>
-			<Item Name="status.ctl" Type="VI" URL="../Ctrl/status.ctl"/>
-			<Item Name="sub_appcomm_data.vi" Type="VI" URL="../Network/sub_appcomm_data.vi"/>
 			<Item Name="sub_logfile.vi" Type="VI" URL="../Lidar/RPLidar/sub_logfile.vi"/>
-			<Item Name="sub_main_appcomm.vi" Type="VI" URL="../Network/sub_main_appcomm.vi"/>
-			<Item Name="sub_main_udp.vi" Type="VI" URL="../Network/sub_main_udp.vi"/>
-			<Item Name="sub_measure_slope.vi" Type="VI" URL="../Subvi/sub_measure_slope.vi"/>
+			<Item Name="sub_measure_slope.vi" Type="VI" URL="../waypoint/sub_measure_slope.vi"/>
 			<Item Name="sub_vlp16_data-range-setting.vi" Type="VI" URL="../Lidar/VLP16/sub_vlp16_data-range-setting.vi"/>
-			<Item Name="system_hw.ctl" Type="VI" URL="../Ctrl/system_hw.ctl"/>
-			<Item Name="tcp-srv.ctl" Type="VI" URL="../Ctrl/tcp-srv.ctl"/>
-			<Item Name="tim571-databuf.ctl" Type="VI" URL="../Ctrl/tim571-databuf.ctl"/>
-			<Item Name="vlp-16 cmd.ctl" Type="VI" URL="../Ctrl/vlp-16 cmd.ctl"/>
-			<Item Name="waypoint_buf.ctl" Type="VI" URL="../Ctrl/waypoint_buf.ctl"/>
 		</Item>
 		<Item Name="빌드 스펙" Type="Build"/>
 	</Item>
