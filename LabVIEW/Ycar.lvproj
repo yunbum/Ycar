@@ -16,6 +16,9 @@
 		<Item Name="Ctrl" Type="Folder" URL="../Ctrl">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Gmap" Type="Folder" URL="../Gmap">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="GPS" Type="Folder" URL="../GPS">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -211,10 +214,18 @@
 			</Item>
 			<Item Name="fgv_agv-232.vi" Type="VI" URL="../AGV/Scout/fgv_agv-232.vi"/>
 			<Item Name="fgv_agv_data.vi" Type="VI" URL="../AGV/Scout/fgv_agv_data.vi"/>
+			<Item Name="fgv_ctrl-refs-2.vi" Type="VI" URL="../Gmap/fgv_ctrl-refs-2.vi"/>
+			<Item Name="fgv_ctrl-refs.vi" Type="VI" URL="../Gmap/fgv_ctrl-refs.vi"/>
 			<Item Name="Global_val.vi" Type="VI" URL="../Vision/Camera/Global_val.vi"/>
-			<Item Name="GMap.NET.WindowsForms.dll" Type="Document" URL="../Gmap/dll/GMap.NET.WindowsForms.dll"/>
+			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../gmap-dot-net/data/GMap.NET.Core.dll"/>
+			<Item Name="GMap.NET.WindowsForms.dll" Type="Document" URL="../../../gmap-dot-net/data/GMap.NET.WindowsForms.dll"/>
+			<Item Name="gmap_fgv-cmd.ctl" Type="VI" URL="../Ctrl/gmap_fgv-cmd.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
+			<Item Name="marker_info.ctl" Type="VI" URL="../Ctrl/marker_info.ctl"/>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -230,6 +241,15 @@
 			<Item Name="sub_logfile.vi" Type="VI" URL="../Lidar/RPLidar/sub_logfile.vi"/>
 			<Item Name="sub_measure_slope.vi" Type="VI" URL="../waypoint/sub_measure_slope.vi"/>
 			<Item Name="sub_vlp16_data-range-setting.vi" Type="VI" URL="../Lidar/VLP16/sub_vlp16_data-range-setting.vi"/>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="빌드 스펙" Type="Build"/>
 	</Item>
