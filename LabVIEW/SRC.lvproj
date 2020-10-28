@@ -216,8 +216,6 @@
 			<Item Name="fgv_agv_data.vi" Type="VI" URL="../AGV/Scout/fgv_agv_data.vi"/>
 			<Item Name="fgv_ctrl-refs-2.vi" Type="VI" URL="../Gmap/fgv_ctrl-refs-2.vi"/>
 			<Item Name="fgv_ctrl-refs.vi" Type="VI" URL="../Gmap/fgv_ctrl-refs.vi"/>
-			<Item Name="fgv_joystick-info.vi" Type="VI" URL="../../../RBA-robot/Subvi/fgv_joystick-info.vi"/>
-			<Item Name="fgv_joystick.vi" Type="VI" URL="../../../RBA-robot/Subvi/fgv_joystick.vi"/>
 			<Item Name="Global_val.vi" Type="VI" URL="../Vision/Camera/Global_val.vi"/>
 			<Item Name="GMap.NET.Core.dll" Type="Document" URL="/C/Users/백윤범/Documents/GitHub/gmap-dot-net/data/GMap.NET.Core.dll"/>
 			<Item Name="GMap.NET.WindowsForms.dll" Type="Document" URL="/C/Users/백윤범/Documents/GitHub/gmap-dot-net/data/GMap.NET.WindowsForms.dll"/>
@@ -238,7 +236,6 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="sub_error_ignore.vi" Type="VI" URL="../../../RBA-robot/Subvi/sub_error_ignore.vi"/>
 			<Item Name="sub_logfile.vi" Type="VI" URL="../Lidar/RPLidar/sub_logfile.vi"/>
 			<Item Name="sub_measure_slope.vi" Type="VI" URL="../waypoint/sub_measure_slope.vi"/>
 			<Item Name="sub_vlp16_data-range-setting.vi" Type="VI" URL="../Lidar/VLP16/sub_vlp16_data-range-setting.vi"/>
