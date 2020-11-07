@@ -249,6 +249,48 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="빌드 스펙" Type="Build"/>
+		<Item Name="빌드 스펙" Type="Build">
+			<Item Name="SRC-B_main" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{5BD7F621-5F8F-46E7-89A8-6E82784503C9}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{9AD5DA8B-2FCC-4023-8A28-CBA477D53071}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{BFA7362B-AB06-46E7-B88E-27E9F75604A2}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">SRC-B_main</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">Korean</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/SRC-B_main</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{9B2C9716-C148-4C9E-B7CA-615D856EE479}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">SRC-B_main.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC-B_main/SRC-B_main.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">지원 디렉토리</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC-B_main/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AB97A018-CFB5-4C3A-917C-E00BE96174B5}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">위고코리아</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">SRC-B_main</Property>
+				<Property Name="TgtF_internalName" Type="Str">SRC-B_main</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">저작권 2020 위고코리아</Property>
+				<Property Name="TgtF_productName" Type="Str">SRC-B_main</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{C0A2ADB6-77F5-44C0-9CD8-9CA14DD8AE6C}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">SRC-B_main.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
