@@ -256,8 +256,12 @@
 			<Item Name="fgv_ctrl-refs-2.vi" Type="VI" URL="../Gmap/fgv_ctrl-refs-2.vi"/>
 			<Item Name="fgv_ctrl-refs.vi" Type="VI" URL="../Gmap/fgv_ctrl-refs.vi"/>
 			<Item Name="Global_val.vi" Type="VI" URL="../Vision/Camera/Global_val.vi"/>
+<<<<<<< Updated upstream
 			<Item Name="GMap.NET.Core.dll" Type="Document" URL="/C/Users/백윤범/Documents/GitHub/gmap-dot-net/data/GMap.NET.Core.dll"/>
 			<Item Name="GMap.NET.WindowsForms.dll" Type="Document" URL="/C/Users/백윤범/Documents/GitHub/gmap-dot-net/data/GMap.NET.WindowsForms.dll"/>
+=======
+			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../gmap-dot-net/data/GMap.NET.Core.dll"/>
+>>>>>>> Stashed changes
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
