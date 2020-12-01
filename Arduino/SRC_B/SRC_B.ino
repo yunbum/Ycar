@@ -56,8 +56,11 @@ class Flasher
   String data,temp;
   unsigned long  steer,go,speed;
   
-Flasher led1(13, 200, 100);
+Flasher led1(0, 200, 100);
 
+//led ch
+int led=8, led_en=7;
+ 
 void setup()
 {
     Serial.begin(115200);
@@ -68,6 +71,29 @@ void setup()
     myServo.write(35);
 
     pinMode(dir, OUTPUT); 
+    
+    pinMode(led, OUTPUT); //led on/off
+    pinMode(led_en, OUTPUT); // led disable
+
+    digitalWrite(led, LOW);
+    delay(100);
+    digitalWrite(led,HIGH);
+    delay(2000);
+
+    digitalWrite(led_en, LOW); 
+    delay(200);
+    digitalWrite(led_en,HIGH);
+    delay(200);
+
+    digitalWrite(led, LOW);
+    delay(100);
+    digitalWrite(led,HIGH);
+    delay(2000);
+
+    //digitalWrite(led_en, LOW); 
+    delay(200);
+    //digitalWrite(led_en,HIGH);
+    delay(200);
     
 }
  
