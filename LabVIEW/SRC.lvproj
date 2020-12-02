@@ -256,11 +256,6 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="fgv_agv-232.vi" Type="VI" URL="../AGV/Scout/fgv_agv-232.vi"/>
-			<Item Name="fgv_agv_data.vi" Type="VI" URL="../AGV/Scout/fgv_agv_data.vi"/>
-			<Item Name="fgv_ctrl-refs-2.vi" Type="VI" URL="../Gmap/fgv_ctrl-refs-2.vi"/>
-			<Item Name="fgv_ctrl-refs.vi" Type="VI" URL="../Gmap/fgv_ctrl-refs.vi"/>
-			<Item Name="Global_val.vi" Type="VI" URL="../Vision/Camera/Global_val.vi"/>
 			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../gmap-dot-net/data/GMap.NET.Core.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
@@ -280,9 +275,6 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="sub_logfile.vi" Type="VI" URL="../Lidar/RPLidar/sub_logfile.vi"/>
-			<Item Name="sub_measure_slope.vi" Type="VI" URL="../waypoint/sub_measure_slope.vi"/>
-			<Item Name="sub_vlp16_data-range-setting.vi" Type="VI" URL="../Lidar/VLP16/sub_vlp16_data-range-setting.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
