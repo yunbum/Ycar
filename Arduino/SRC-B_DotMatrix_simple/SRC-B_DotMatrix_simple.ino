@@ -169,26 +169,31 @@ void loop()
     String str1 = data.substring(0, first); // 속도
     String str2 = data.substring(first+1, second); // 조향
     String str3 = data.substring(second+1,third); // 전후진
-    String str4 = data.substring(third,length); // 메세지
+    String str4 = data.substring(third+1,fourth); // 메세지
     
-    ledmsg = data.substring(third,length); // 메세지
+    ledmsg = data.substring(fourth+1,length); // 메세지
     
     speed = str1.toInt();
     steer = str2.toInt();
 
     analogWrite(6, speed);
 
-    if(str3 == "b")
+    if(str3 == "b") // 후진
     {
       digitalWrite(dir, LOW);
 
     }
 
-    else if(str3 =="g")
+    else if(str3 =="g") //전진
     {
       digitalWrite(dir, HIGH);
     }
 
+    if (str4 =!"")
+    {
+      
+    }
+    
     led1.Update();
     myServo.write(steer);
 
