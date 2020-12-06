@@ -256,6 +256,7 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
+			<Item Name="fgv_q.ctl" Type="VI" URL="../Ctrl/fgv_q.ctl"/>
 			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../gmap-dot-net/data/GMap.NET.Core.dll"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -281,6 +282,7 @@
 			<Item Name="pdh.dll" Type="Document" URL="pdh.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="q_data-type.ctl" Type="VI" URL="../Ctrl/q_data-type.ctl"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -290,49 +292,9 @@
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="udp_item.ctl" Type="VI" URL="../Ctrl/udp_item.ctl"/>
 		</Item>
 		<Item Name="빌드 스펙" Type="Build">
-			<Item Name="Sound_test" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{A87A7DE1-A29B-41FA-921B-222716661DF6}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{0197A83D-BC5F-4F3C-8F13-71298AE1BE12}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{7D5B8A89-60DE-41D5-A34D-1029BB30A0C0}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Sound_test</Property>
-				<Property Name="Bld_defaultLanguage" Type="Str">Korean</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Sound_test</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{36D4C46A-DE95-4CC8-9C38-235BA005DDB3}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Test_sound.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Sound_test/Test_sound.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">지원 디렉토리</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Sound_test/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DA24E49D-77F1-407F-A151-C89326F780D4}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/Subvi/sound/test_sound.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">위고코리아</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Sound_test</Property>
-				<Property Name="TgtF_internalName" Type="Str">Sound_test</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">저작권 2020 위고코리아</Property>
-				<Property Name="TgtF_productName" Type="Str">Sound_test</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{29B5D225-9911-4CDD-9540-6C75AB7BC561}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Test_sound.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
 			<Item Name="SRC-B_main" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{5BD7F621-5F8F-46E7-89A8-6E82784503C9}</Property>
@@ -349,7 +311,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9B2C9716-C148-4C9E-B7CA-615D856EE479}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SRC-B_main.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC-B_main/SRC-B_main.exe</Property>
