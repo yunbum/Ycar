@@ -258,9 +258,7 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="fgv_imgbuff_4stream.vi" Type="VI" URL="../Network/fgv_imgbuff_4stream.vi"/>
 			<Item Name="fgv_lidars-img.vi" Type="VI" URL="../Subvi/Lidar/fgv_lidars-img.vi"/>
-			<Item Name="fgv_master_local-stop.vi" Type="VI" URL="../Subvi/fgv_master_local-stop.vi"/>
 			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../gmap-dot-net/data/GMap.NET.Core.dll"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -288,8 +286,7 @@
 			</Item>
 			<Item Name="SoutWork.ctl" Type="VI" URL="../Subvi/Ctrl/SoutWork.ctl"/>
 			<Item Name="sub_gmap_url-latlong.vi" Type="VI" URL="../Gmap-web/sub_gmap_url-latlong.vi"/>
-			<Item Name="sub_joystick_master.vi" Type="VI" URL="../Subvi/joystick/sub_joystick_master.vi"/>
-			<Item Name="sub_udp_main_master.vi" Type="VI" URL="../Network/sub_udp_main_master.vi"/>
+			<Item Name="sub_udp_main_master.vi" Type="VI" URL="../../../RBA-robot/Network/sub_udp_main_master.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
