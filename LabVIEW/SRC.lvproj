@@ -37,7 +37,8 @@
 		<Item Name="Waypoint" Type="Folder" URL="../Waypoint">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Main_agv.vi" Type="VI" URL="../Main_agv.vi"/>
+		<Item Name="Main_remote.vi" Type="VI" URL="../Main_remote.vi"/>
 		<Item Name="의존성" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Convert Laser Intensity to Color.vi" Type="VI" URL="/&lt;instrlib&gt;/Velodyne HDL-64E S2/Examples/Example SubVIs/Convert Laser Intensity to Color.vi"/>
@@ -146,6 +147,7 @@
 				<Item Name="Initialize Joystick.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Initialize Joystick.vi"/>
 				<Item Name="Initialize Mouse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Initialize Mouse.vi"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
+				<Item Name="Intialize Keyboard.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Intialize Keyboard.vi"/>
 				<Item Name="IVA Clear Coordsys Errors.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Clear Coordsys Errors.vi"/>
 				<Item Name="IVA Gauge Algorithm Max.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Gauge Algorithm Max.vi"/>
 				<Item Name="IVA Gauge Find Min Max Position.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Gauge Find Min Max Position.vi"/>
@@ -256,7 +258,9 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="fgv_ctrl-ref.vi" Type="VI" URL="../../../Patrolrobot/Subvi/fgv_ctrl-ref.vi"/>
+			<Item Name="fgv_imgbuff_4stream.vi" Type="VI" URL="../Network/fgv_imgbuff_4stream.vi"/>
+			<Item Name="fgv_lidars-img.vi" Type="VI" URL="../Subvi/Lidar/fgv_lidars-img.vi"/>
+			<Item Name="fgv_master_local-stop.vi" Type="VI" URL="../Subvi/fgv_master_local-stop.vi"/>
 			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../gmap-dot-net/data/GMap.NET.Core.dll"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -282,6 +286,10 @@
 			<Item Name="pdh.dll" Type="Document" URL="pdh.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="SoutWork.ctl" Type="VI" URL="../Subvi/Ctrl/SoutWork.ctl"/>
+			<Item Name="sub_gmap_url-latlong.vi" Type="VI" URL="../Gmap-web/sub_gmap_url-latlong.vi"/>
+			<Item Name="sub_joystick_master.vi" Type="VI" URL="../Subvi/joystick/sub_joystick_master.vi"/>
+			<Item Name="sub_udp_main_master.vi" Type="VI" URL="../Network/sub_udp_main_master.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -321,7 +329,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{AB97A018-CFB5-4C3A-917C-E00BE96174B5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
