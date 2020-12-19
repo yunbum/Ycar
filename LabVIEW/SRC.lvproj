@@ -41,7 +41,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Main_agv.vi" Type="VI" URL="../Main_agv.vi"/>
-		<Item Name="Main_remote.vi" Type="VI" URL="../Main_remote.vi"/>
+		<Item Name="main_remote.vi" Type="VI" URL="../main_remote.vi"/>
 		<Item Name="의존성" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Convert Laser Intensity to Color.vi" Type="VI" URL="/&lt;instrlib&gt;/Velodyne HDL-64E S2/Examples/Example SubVIs/Convert Laser Intensity to Color.vi"/>
@@ -261,7 +261,7 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../gmap-dot-net/data/GMap.NET.Core.dll"/>
+			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../../../../백윤범/Documents/GitHub/gmap-dot-net/data/GMap.NET.Core.dll"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -313,7 +313,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9B2C9716-C148-4C9E-B7CA-615D856EE479}</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SRC-B_main.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC-B_main/SRC-B_main.exe</Property>
@@ -322,10 +322,10 @@
 				<Property Name="Destination[1].destName" Type="Str">지원 디렉토리</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC-B_main/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AB97A018-CFB5-4C3A-917C-E00BE96174B5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8D47E4CC-F4F4-48E9-914F-E0D92B09B819}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/Main_agv.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
