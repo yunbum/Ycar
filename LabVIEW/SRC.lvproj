@@ -261,10 +261,18 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
+			<Item Name="fgv_latlong.vi" Type="VI" URL="../Subvi/PwrPak7/fgv_latlong.vi"/>
+			<Item Name="fgv_math-points.vi" Type="VI" URL="../Subvi/statistics/waypoint/fgv_math-points.vi"/>
+			<Item Name="fgv_PwrPak7_config.vi" Type="VI" URL="../Subvi/statistics/fgv_PwrPak7_config.vi"/>
+			<Item Name="fgv_stop_global.vi" Type="VI" URL="../Subvi/fgv_stop_global.vi"/>
+			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../Patrolrobot/Subvi/Gmap/dll/GMap.NET.Core.dll"/>
 			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../../../../백윤범/Documents/GitHub/gmap-dot-net/data/GMap.NET.Core.dll"/>
+			<Item Name="GMap.NET.WindowsForms.dll" Type="Document" URL="../../../Patrolrobot/Subvi/Gmap/dll/GMap.NET.WindowsForms.dll"/>
+			<Item Name="gnss_heading-key.ctl" Type="VI" URL="../Subvi/Ctrl/gnss_heading-key.ctl"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="latlong_from-log.vi" Type="VI" URL="../Subvi/statistics/log/latlong_from-log.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
@@ -286,6 +294,8 @@
 			<Item Name="pdh.dll" Type="Document" URL="pdh.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="sub_deg-gap-cal_4_pid.vi" Type="VI" URL="../Subvi/statistics/waypoint/sub_deg-gap-cal_4_pid.vi"/>
+			<Item Name="sub_find-pts.vi" Type="VI" URL="../Subvi/statistics/waypoint/sub_find-pts.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
