@@ -107,7 +107,7 @@ class Flasher
 
   int dir=4;
   int pwm;
-  int light=12;
+  int light=2;
   String data,temp;
   unsigned long  steer,go,speed;
   
