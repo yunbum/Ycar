@@ -263,16 +263,9 @@
 			</Item>
 			<Item Name="cmd_ini-RW.ctl" Type="VI" URL="../../../Patrolrobot/Ctrl/cmd_ini-RW.ctl"/>
 			<Item Name="cmd_ini-RW.ctl" Type="VI" URL="../../Ctrl/cmd_ini-RW.ctl"/>
-			<Item Name="fgv_error-2.vi" Type="VI" URL="../fgv_error-2.vi"/>
 			<Item Name="fgv_latlong.vi" Type="VI" URL="../Subvi/PwrPak7/fgv_latlong.vi"/>
-			<Item Name="fgv_loop_count.vi" Type="VI" URL="../fgv_loop_count.vi"/>
 			<Item Name="fgv_PwrPak7_config.vi" Type="VI" URL="../Subvi/statistics/fgv_PwrPak7_config.vi"/>
-			<Item Name="fgv_statistics.vi" Type="VI" URL="../system/fgv_statistics.vi"/>
-			<Item Name="fgv_stop-point_databuf.vi" Type="VI" URL="../fgv_stop-point_databuf.vi"/>
 			<Item Name="fgv_stop_global.vi" Type="VI" URL="../Subvi/fgv_stop_global.vi"/>
-			<Item Name="fgv_waypoint_config.vi" Type="VI" URL="../fgv_waypoint_config.vi"/>
-			<Item Name="fgv_waypoint_data.vi" Type="VI" URL="../fgv_waypoint_data.vi"/>
-			<Item Name="fgv_waypoint_total.vi" Type="VI" URL="../fgv_waypoint_total.vi"/>
 			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../Patrolrobot/Subvi/Gmap/dll/GMap.NET.Core.dll"/>
 			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../../../../백윤범/Documents/GitHub/gmap-dot-net/data/GMap.NET.Core.dll"/>
 			<Item Name="GMap.NET.WindowsForms.dll" Type="Document" URL="../../../Patrolrobot/Subvi/Gmap/dll/GMap.NET.WindowsForms.dll"/>
@@ -301,9 +294,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="statistics_val.ctl" Type="VI" URL="../../../Patrolrobot/Ctrl/statistics_val.ctl"/>
-			<Item Name="sub_error_data-conversion.vi" Type="VI" URL="../sub_error_data-conversion.vi"/>
-			<Item Name="sub_measure_distance.vi" Type="VI" URL="../sub_measure_distance.vi"/>
-			<Item Name="sub_waypoints_upload.vi" Type="VI" URL="../sub_waypoints_upload.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -313,7 +303,6 @@
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="waypoint_buf.ctl" Type="VI" URL="../../Ctrl/waypoint_buf.ctl"/>
 		</Item>
 		<Item Name="빌드 스펙" Type="Build">
 			<Item Name="SRC-B_main" Type="EXE">
