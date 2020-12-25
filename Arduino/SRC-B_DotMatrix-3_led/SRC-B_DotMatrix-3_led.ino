@@ -69,7 +69,7 @@ class Flasher
  
   // Constructor - creates a Flasher 
   // and initializes the member variables and state
-  public:
+  //public:
   Flasher(int pin, long on, long off)
   {
     ledPin = pin;
@@ -107,6 +107,7 @@ class Flasher
 
   int dir=4;
   int pwm;
+  int light=12;
   String data,temp;
   unsigned long  steer,go,speed;
   
@@ -133,10 +134,10 @@ void setup()
     myServo.attach(servoPin, 500,2500);
     myServo.write(35);
 
-    pinMode(dir, OUTPUT); 
-    pinMode(7, OUTPUT);
-    digitalWrite(7, LOW);
-    
+    pinMode(dir, OUTPUT); // 방향
+    pinMode(light, OUTPUT); // 라이트
+    pinMode(light, HIGH);
+    digitalWrite(light, HIGH);
 }
  
 void loop()
@@ -163,42 +164,50 @@ void loop()
     int first = data.indexOf(",");// 첫 번째 콤마 위치
     int second = data.indexOf(",",first+1); // 두 번째 콤마 위치
     int third = data.indexOf(",",second+1); // 세 번째 콤마 위치
-    int fourth = data.indexOf(",",third+1); // 세 번째 콤마 위치
+    int fourth = data.indexOf(",",third+1); // 네 번째 콤마 위치
+    int fifth = data.indexOf(",",fourth+1); //
     int length = data.length(); // 문자열 길이
     
     String str1 = data.substring(0, first); // 속도
     String str2 = data.substring(first+1, second); // 조향
     String str3 = data.substring(second+1,third); // 전후진
-    String str4 = data.substring(third+1,fourth); // 메세지
+    String str4 = data.substring(third+1,fourth); // 라이트
+    String str5 = data.substring(fourth+1,fifth);
     
-    ledmsg = data.substring(fourth+1,length); // 메세지
+    //ledmsg = data.substring(fourth+1,length); // 메세지
     
     speed = str1.toInt();
     steer = str2.toInt();
 
     analogWrite(6, speed);
 
+    // 전,후진 ---------------------------------
     if(str3 == "b") // 후진
     {
       digitalWrite(dir, LOW);
-
     }
-
     else if(str3 =="g") //전진
     {
       digitalWrite(dir, HIGH);
     }
-
-    if (str4 =!"")
+    
+    // Light on/off -------------------------------
+    if (str4 == "1")
     {
-      //ledmsg.toCharArray(ledchar, ledmsg.length());
+      digitalWrite(light, HIGH);
+      //digitalWrite(12, HIGH);
     }
+    else if(str4 == "0")
+    {
+      digitalWrite(light, LOW);
+    }
+    //-------------------------------------------------
     
     led1.Update();
     myServo.write(steer);
 
-    Serial.println("sp"+str1+","+"st"+str2+","+str3);
-    
+    Serial.println("sp-"+str1+","+"st-"+str2+","+"dir-"+str3+","+"light-"+str4);
+    //Serial.println(str4);
     }
     else{
       digitalWrite(dir, LOW);

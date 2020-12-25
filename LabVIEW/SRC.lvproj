@@ -261,6 +261,7 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
+			<Item Name="cmd_ini-RW.ctl" Type="VI" URL="../../../Patrolrobot/Ctrl/cmd_ini-RW.ctl"/>
 			<Item Name="cmd_ini-RW.ctl" Type="VI" URL="../../Ctrl/cmd_ini-RW.ctl"/>
 			<Item Name="fgv_error-2.vi" Type="VI" URL="../fgv_error-2.vi"/>
 			<Item Name="fgv_latlong.vi" Type="VI" URL="../Subvi/PwrPak7/fgv_latlong.vi"/>
@@ -299,6 +300,7 @@
 			<Item Name="pdh.dll" Type="Document" URL="pdh.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="statistics_val.ctl" Type="VI" URL="../../../Patrolrobot/Ctrl/statistics_val.ctl"/>
 			<Item Name="sub_error_data-conversion.vi" Type="VI" URL="../sub_error_data-conversion.vi"/>
 			<Item Name="sub_measure_distance.vi" Type="VI" URL="../sub_measure_distance.vi"/>
 			<Item Name="sub_waypoints_upload.vi" Type="VI" URL="../sub_waypoints_upload.vi"/>

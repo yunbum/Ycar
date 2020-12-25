@@ -19,7 +19,7 @@ class Flasher
  
   // Constructor - creates a Flasher 
   // and initializes the member variables and state
-  //public:
+  public:
   Flasher(int pin, long on, long off)
   {
     ledPin = pin;
@@ -39,7 +39,7 @@ class Flasher
      
     if((ledState == HIGH) && (currentMillis - previousMillis >= OnTime))
     {
-        ledState = LOW;  // Turn it off
+      ledState = LOW;  // Turn it off
       previousMillis = currentMillis;  // Remember the time
       digitalWrite(ledPin, ledState);  // Update the actual LED
     }
@@ -59,7 +59,7 @@ class Flasher
 Flasher led1(0, 200, 100);
 
 //led ch
-int led=8, led_en=7;
+int led=12;
  
 void setup()
 {
@@ -71,50 +71,33 @@ void setup()
     myServo.write(35);
 
     pinMode(dir, OUTPUT); 
-    
+        
     pinMode(led, OUTPUT); //led on/off
-    pinMode(led_en, OUTPUT); // led disable
-
     digitalWrite(led, LOW);
-    delay(100);
-    digitalWrite(led,HIGH);
-    delay(2000);
-
-    digitalWrite(led_en, LOW); 
-    delay(200);
-    digitalWrite(led_en,HIGH);
-    delay(200);
-
-    digitalWrite(led, LOW);
-    delay(100);
-    digitalWrite(led,HIGH);
-    delay(2000);
-
-    //digitalWrite(led_en, LOW); 
-    delay(200);
-    //digitalWrite(led_en,HIGH);
-    delay(200);
-    
+        
 }
  
 void loop()
 {
   data = Serial.readStringUntil('t');
 
-  String str1;
+  //String str1;
   
   if (data != 0){
     int first = data.indexOf(",");// 첫 번째 콤마 위치
     int second = data.indexOf(",",first+1); // 두 번째 콤마 위치
     int third = data.indexOf(",",second+1); // 세 번째 콤마 위치
+    int fourth = data.indexOf(",",third+1);
+    int fifth = data.indexOf(",",fourth+1);
     int length = data.length(); // 문자열 길이
   
-    String str1 = data.substring(0, first); // 첫 번째 토큰 (0, 3)
-    String str2 = data.substring(first+1, second); // 두 번째 토큰 (4, 7)
-    //String str3 = data.substring(second+1,length); // 세 번째 토큰(8, 10)
-    String str3 = data.substring(second+1,third); // 세 번째 토큰(8, 10)
-    //String str4 = data.substring();
-    String str4 = data.substring(third,length);
+    String str1 = data.substring(0, first); // 첫 번째 토큰 > 속도
+    String str2 = data.substring(first+1, second); // 두 번째 > 조향값
+    String str3 = data.substring(second+1,third); // 세 번째 > 방향
+    String str4 = data.substring(third+1,fourth); // 네 번째 > Led
+    String str5 = data.substring(fourth+1,length); // 다섯 번째 > MSG
+    String str6 = data.substring(fifth+1,length);
+
 
     speed = str1.toInt();
     steer = str2.toInt();
@@ -124,23 +107,43 @@ void loop()
 
     analogWrite(6, speed);
 
-    if(str3 == "b")
+    //전,후진-----------------------
+    if(str3 == "b") //후진
     {
       //digitalWrite(7, HIGH);
       digitalWrite(dir, LOW);
-
     }
-
-    else if(str3 =="g")
+    else if(str3 =="g") //전진
     {
-      //digitalWrite(dir,LOW);
-      digitalWrite(dir, HIGH);
+      digitalWrite(dir,HIGH);
     }
+
+    //LED------------------------
+    if(str4 == "1") // 
+    {
+      digitalWrite(led, HIGH);
+    }
+    else if(str4 =="0")
+    {
+      digitalWrite(led, LOW);;
+    }
+
+    //Msg -------------------------
+    if(str5 == "1") // 
+    {
+      //digitalWrite(led, HIGH);
+    }
+    else if(str5 =="0")
+    {
+      //digitalWrite(led, LOW);
+    }
+
 
     led1.Update();
     myServo.write(steer);
 
-    Serial.println("sp"+str1+","+"st"+str2+","+str3);
+    Serial.println("sp"+str1+","+"st"+str2+","+"dir"+str3+"led"+str4);
+    //Serial.println(str1);
     
     }
     else{
