@@ -69,7 +69,7 @@ class Flasher
  
   // Constructor - creates a Flasher 
   // and initializes the member variables and state
-  //public:
+  public:
   Flasher(int pin, long on, long off)
   {
     ledPin = pin;
@@ -136,7 +136,6 @@ void setup()
 
     pinMode(dir, OUTPUT); // 방향
     pinMode(light, OUTPUT); // 라이트
-    pinMode(light, HIGH);
     digitalWrite(light, HIGH);
 }
  
@@ -195,7 +194,6 @@ void loop()
     if (str4 == "1")
     {
       digitalWrite(light, HIGH);
-      //digitalWrite(12, HIGH);
     }
     else if(str4 == "0")
     {
@@ -206,7 +204,7 @@ void loop()
     led1.Update();
     myServo.write(steer);
 
-    Serial.println("sp-"+str1+","+"st-"+str2+","+"dir-"+str3+","+"light-"+str4);
+    Serial.println("sp="+str1+","+"st="+str2+","+"dir="+str3+","+"light="+str4);
     //Serial.println(str4);
     }
     else{

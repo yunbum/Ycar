@@ -107,6 +107,7 @@ class Flasher
 
   int dir=4;
   int pwm;
+  int light=2;
   String data,temp;
   unsigned long  steer,go,speed;
   
@@ -158,7 +159,6 @@ void loop()
   String str1, ledmsg;
   
   if (data != 0){
-    //data_g = data;
     
     int first = data.indexOf(",");// 첫 번째 콤마 위치
     int second = data.indexOf(",",first+1); // 두 번째 콤마 위치
