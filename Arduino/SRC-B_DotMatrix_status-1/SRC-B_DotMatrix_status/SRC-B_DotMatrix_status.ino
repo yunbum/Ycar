@@ -142,7 +142,7 @@ void setup()
  
 void loop()
 {
-  data = Serial.readStringUntil('t');
+  data = Serial.readStringUntil('&');
 
   if (myDisplay.displayAnimate()) {
     //if (i < sizeof(texteffect)) {
