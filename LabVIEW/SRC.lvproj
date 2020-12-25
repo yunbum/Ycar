@@ -261,8 +261,6 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="cmd_ini-RW.ctl" Type="VI" URL="../../../Patrolrobot/Ctrl/cmd_ini-RW.ctl"/>
-			<Item Name="cmd_ini-RW.ctl" Type="VI" URL="../../Ctrl/cmd_ini-RW.ctl"/>
 			<Item Name="fgv_latlong.vi" Type="VI" URL="../Subvi/PwrPak7/fgv_latlong.vi"/>
 			<Item Name="fgv_PwrPak7_config.vi" Type="VI" URL="../Subvi/statistics/fgv_PwrPak7_config.vi"/>
 			<Item Name="fgv_stop_global.vi" Type="VI" URL="../Subvi/fgv_stop_global.vi"/>
@@ -293,7 +291,6 @@
 			<Item Name="pdh.dll" Type="Document" URL="pdh.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="statistics_val.ctl" Type="VI" URL="../../../Patrolrobot/Ctrl/statistics_val.ctl"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -321,7 +318,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9B2C9716-C148-4C9E-B7CA-615D856EE479}</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SRC-B_main.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC-B_main/SRC-B_main.exe</Property>
