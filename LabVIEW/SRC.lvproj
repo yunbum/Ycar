@@ -41,7 +41,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Main_agv.vi" Type="VI" URL="../Main_agv.vi"/>
-		<Item Name="main_remote.vi" Type="VI" URL="../main_remote.vi"/>
+		<Item Name="Main_remote.vi" Type="VI" URL="../Main_remote.vi"/>
 		<Item Name="의존성" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Convert Laser Intensity to Color.vi" Type="VI" URL="/&lt;instrlib&gt;/Velodyne HDL-64E S2/Examples/Example SubVIs/Convert Laser Intensity to Color.vi"/>
@@ -261,7 +261,7 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="fgv_latlong.vi" Type="VI" URL="../Subvi/PwrPak7/fgv_latlong.vi"/>
+			<Item Name="fgv_latlong.vi" Type="VI" URL="../../../Patrolrobot/PwrPak7/fgv_latlong.vi"/>
 			<Item Name="fgv_PwrPak7_config.vi" Type="VI" URL="../Subvi/statistics/fgv_PwrPak7_config.vi"/>
 			<Item Name="fgv_stop_global.vi" Type="VI" URL="../Subvi/fgv_stop_global.vi"/>
 			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../Patrolrobot/Subvi/Gmap/dll/GMap.NET.Core.dll"/>
