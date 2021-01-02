@@ -265,7 +265,6 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="fgv_stop_global.vi" Type="VI" URL="../Subvi/fgv_stop_global.vi"/>
 			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../Patrolrobot/Subvi/Gmap/dll/GMap.NET.Core.dll"/>
 			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../../../../백윤범/Documents/GitHub/gmap-dot-net/data/GMap.NET.Core.dll"/>
 			<Item Name="GMap.NET.WindowsForms.dll" Type="Document" URL="../../../Patrolrobot/Subvi/Gmap/dll/GMap.NET.WindowsForms.dll"/>
