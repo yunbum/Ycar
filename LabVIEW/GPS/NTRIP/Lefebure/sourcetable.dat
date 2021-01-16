@@ -1,0 +1,27 @@
+﻿SOURCETABLE 200 OK
+Server: NTRIP Trimble Ntrip Caster 4.3
+Content-Type: text/plain
+Content-Length: 3498
+Date: Fri, 08 Jan 2021 12:39:12 UTC
+
+STR;SONP-RTCM32;SONP-RTCM32;RTCM 3.2;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO+GAL+BDS+QZS;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
+STR;GANS-RTCM32;GANS-RTCM32;RTCM 3.2;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO+GAL+BDS+QZS;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
+STR;GUMC-RTCM32;GUMC-RTCM32;RTCM 3.2;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO+GAL+BDS+QZS;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
+STR;DBON-RTCM32;DBON-RTCM32;RTCM 3.2;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO+GAL+BDS+QZS;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
+STR;YONS-RTCM23;YONS-RTCM23;RTCM 2.3;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
+STR;SONP-RTCM23;SONP-RTCM23;RTCM 2.3;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
+STR;GUMC-RTCM23;GUMC-RTCM23;RTCM 2.3;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
+STR;GANS-RTCM31;GANS-RTCM31;RTCM 3.1;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
+STR;YONS-CMRx;YONS-CMRx;CMRx;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO+GAL+BDS+QZS;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
+STR;SONP-RTCM31;SONP-RTCM31;RTCM 3.1;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
+STR;GUMC-RTCM31;GUMC-RTCM31;RTCM 3.1;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
+STR;GANS-RTCM23;GANS-RTCM23;RTCM 2.3;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
+STR;DBON-RTCM23;DBON-RTCM23;RTCM 2.3;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
+STR;DBON-RTCM31;DBON-RTCM31;RTCM 3.1;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
+STR;YONS-RTCM31;YONS-RTCM31;RTCM 3.1;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
+STR;YONS-RTCM32-M5;YONS-RTCM32-M5;RTCM 3.2;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO+GAL+BDS+QZS;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
+STR;VRS-RTCM32-M5;VRS-RTCM32-M5;RTCM 3.2;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO+GAL+BDS+QZS;;KOR;0;0;1;1;Trimble Pivot Platform;none;N;N;0;;
+STR;VRS-RTCM31;VRS-RTCM31;RTCM 3.1;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO;;KOR;0;0;1;1;Trimble Pivot Platform;none;N;N;0;;
+STR;VRS-CMRx;VRS-CMRx;CMRx;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO+GAL+BDS+QZS;;KOR;0;0;1;1;Trimble Pivot Platform;none;N;N;0;;
+STR;VRS-CMRplus;VRS-CMRplus;CMR+;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO;;KOR;0;0;1;1;Trimble Pivot Platform;none;N;N;0;;
+ENDSOURCETABLE

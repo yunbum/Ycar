@@ -1,0 +1,5 @@
+﻿NTRIP Caster=gnss.eseoul.go.kr
+NTRIP Caster Port=2101
+NTRIP Username=seoul
+NTRIP Password=seoul
+NTRIP MountPoint=YONS-RTCM32-M5
