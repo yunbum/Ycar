@@ -37,7 +37,7 @@
 			<Item Name="SparkfunRazorImu.vi" Type="VI" URL="../RazorImu/SparkfunRazorImu.vi"/>
 		</Item>
 		<Item Name="MadgwickOrientationFilter.lvlib" Type="Library" URL="../MadgwickOrientationFilter.lvlib"/>
-		<Item Name="test_imu_3d.vi" Type="VI" URL="../../test_imu_3d.vi"/>
+		<Item Name="test_232_imu-3d_MW-AHRSv1.vi" Type="VI" URL="../../NTREX/test_232_imu-3d_MW-AHRSv1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
