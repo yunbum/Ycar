@@ -47,7 +47,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Main_agv.vi" Type="VI" URL="../Main_agv.vi"/>
-		<Item Name="Main_remote.vi" Type="VI" URL="../Main_remote.vi"/>
+		<Item Name="main_remote.vi" Type="VI" URL="../main_remote.vi"/>
 		<Item Name="의존성" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Convert Laser Intensity to Color.vi" Type="VI" URL="/&lt;instrlib&gt;/Velodyne HDL-64E S2/Examples/Example SubVIs/Convert Laser Intensity to Color.vi"/>
@@ -272,8 +272,8 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
+			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../gmap-dot-net/data/GMap.NET.Core.dll"/>
 			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../Patrolrobot/Subvi/Gmap/dll/GMap.NET.Core.dll"/>
-			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../../../../백윤범/Documents/GitHub/gmap-dot-net/data/GMap.NET.Core.dll"/>
 			<Item Name="GMap.NET.WindowsForms.dll" Type="Document" URL="../../../Patrolrobot/Subvi/Gmap/dll/GMap.NET.WindowsForms.dll"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
