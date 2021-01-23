@@ -48,6 +48,7 @@
 		</Item>
 		<Item Name="Main_agv.vi" Type="VI" URL="../Main_agv.vi"/>
 		<Item Name="Main_remote.vi" Type="VI" URL="../Main_remote.vi"/>
+		<Item Name="VI tree.vi" Type="VI" URL="../VI tree.vi"/>
 		<Item Name="의존성" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Convert Laser Intensity to Color.vi" Type="VI" URL="/&lt;instrlib&gt;/Velodyne HDL-64E S2/Examples/Example SubVIs/Convert Laser Intensity to Color.vi"/>
