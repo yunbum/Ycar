@@ -410,7 +410,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2E30AD2B-F137-4C12-92B6-E981A6B29B74}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SRC-C.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC-C/SRC-C.exe</Property>
@@ -433,6 +433,47 @@
 				<Property Name="TgtF_productName" Type="Str">SRC-C</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{67C54DD4-1C56-4D2A-A1B1-EF0778AEDF8C}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">SRC-C.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="ycar tester" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{39A4698D-7F8F-442A-9E6B-1C757CC1BD44}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{0C9A716F-44A1-454F-A17E-684588D176AF}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{6A1A94B9-B77D-4D3A-8F1B-728B244EF4CB}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ycar tester</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">Korean</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/ycar tester</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{67527643-7CC4-4D01-ADFE-9BE240AF8BE1}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">ycar tester.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ycar tester/ycar tester.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">지원 디렉토리</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ycar tester/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B6D24EEB-3B8A-451F-B10A-289C8C5D5335}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/AGV/ycar/test_serial-w-arduino.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">한국교통대학교</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">ycar tester</Property>
+				<Property Name="TgtF_internalName" Type="Str">ycar tester</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">저작권 2021 한국교통대학교</Property>
+				<Property Name="TgtF_productName" Type="Str">ycar tester</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D0007CB5-88D4-475A-9712-2087AB4ACD54}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">ycar tester.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
