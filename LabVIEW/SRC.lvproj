@@ -47,7 +47,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Main_agv.vi" Type="VI" URL="../Main_agv.vi"/>
-		<Item Name="main_remote.vi" Type="VI" URL="../main_remote.vi"/>
+		<Item Name="Main_remote.vi" Type="VI" URL="../Main_remote.vi"/>
 		<Item Name="VI tree.vi" Type="VI" URL="../VI tree.vi"/>
 		<Item Name="의존성" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
