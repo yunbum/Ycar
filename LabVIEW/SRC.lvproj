@@ -171,6 +171,7 @@
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="LVPointDoubleTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointDoubleTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVRGBAColorTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRGBAColorTypeDef.ctl"/>
 				<Item Name="LVSceneTextAlignment.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVSceneTextAlignment.ctl"/>
 				<Item Name="LVTextureCoordinateArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVTextureCoordinateArrayTypeDef.ctl"/>
 				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
@@ -273,12 +274,6 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="fgv_232_gnss.vi" Type="VI" URL="../GPS/F9P/fgv_232_gnss.vi"/>
-			<Item Name="fgv_gps_config.vi" Type="VI" URL="../GPS/F9P/fgv_gps_config.vi"/>
-			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../Patrolrobot/Subvi/Gmap/dll/GMap.NET.Core.dll"/>
-			<Item Name="GMap.NET.Core.dll" Type="Document" URL="../../../../../../백윤범/Documents/GitHub/gmap-dot-net/data/GMap.NET.Core.dll"/>
-			<Item Name="GMap.NET.WindowsForms.dll" Type="Document" URL="../../../Patrolrobot/Subvi/Gmap/dll/GMap.NET.WindowsForms.dll"/>
-			<Item Name="gnss_config.ctl" Type="VI" URL="../GPS/Ctrl/gnss_config.ctl"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -303,8 +298,6 @@
 			<Item Name="pdh.dll" Type="Document" URL="pdh.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="sub_gnss-data_check.vi" Type="VI" URL="../GPS/F9P/F9P/sub_gnss-data_check.vi"/>
-			<Item Name="sub_wgs-84 to tm.vi" Type="VI" URL="../GPS/PwrPak7/sub_wgs-84 to tm.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
