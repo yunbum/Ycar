@@ -273,8 +273,6 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="agv_cmd_v.ctl" Type="VI" URL="../../../Patrolrobot/Ctrl/agv_cmd_v.ctl"/>
-			<Item Name="fgv_agv_cmd-val.vi" Type="VI" URL="../../../Patrolrobot/AGV/fgv_agv_cmd-val.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
