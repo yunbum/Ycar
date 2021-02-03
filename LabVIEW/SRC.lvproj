@@ -273,6 +273,8 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
+			<Item Name="cmd_imu.ctl" Type="VI" URL="../IMU/Ctrl/cmd_imu.ctl"/>
+			<Item Name="fgv_imu_data.vi" Type="VI" URL="../IMU/NTREX/fgv_imu_data.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -297,6 +299,8 @@
 			<Item Name="pdh.dll" Type="Document" URL="pdh.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="sub_imu-str-2-data.vi" Type="VI" URL="../IMU/NTREX/sub_imu-str-2-data.vi"/>
+			<Item Name="sub_picture_gnss-deg.vi" Type="VI" URL="../IMU/Subvi/sub_picture_gnss-deg.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -377,7 +381,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{B6D24EEB-3B8A-451F-B10A-289C8C5D5335}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/IMU/NTREX/test_232_imu_MW-AHRSv1_3d.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
