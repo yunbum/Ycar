@@ -274,6 +274,8 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
+			<Item Name="error_modules.ctl" Type="VI" URL="../Subvi/Ctrl/error_modules.ctl"/>
+			<Item Name="fgv_module_error.vi" Type="VI" URL="../Subvi/fgv_module_error.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -391,47 +393,6 @@
 				<Property Name="TgtF_targetfileName" Type="Str">MW-AHRSv1_tester.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SRC-B_main" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{5BD7F621-5F8F-46E7-89A8-6E82784503C9}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{9AD5DA8B-2FCC-4023-8A28-CBA477D53071}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{BFA7362B-AB06-46E7-B88E-27E9F75604A2}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">SRC-B_main</Property>
-				<Property Name="Bld_defaultLanguage" Type="Str">Korean</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/SRC-B_main</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{9B2C9716-C148-4C9E-B7CA-615D856EE479}</Property>
-				<Property Name="Bld_version.build" Type="Int">38</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">SRC-B_main.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC-B_main/SRC-B_main.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">지원 디렉토리</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC-B_main/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8D47E4CC-F4F4-48E9-914F-E0D92B09B819}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/Main_agv.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">위고코리아</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">SRC-B_main</Property>
-				<Property Name="TgtF_internalName" Type="Str">SRC-B_main</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">저작권 2020 위고코리아</Property>
-				<Property Name="TgtF_productName" Type="Str">SRC-B_main</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{C0A2ADB6-77F5-44C0-9CD8-9CA14DD8AE6C}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">SRC-B_main.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
 			<Item Name="SRC-C" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{C6D631E2-FCE2-4889-A314-4AD359DA160B}</Property>
@@ -448,7 +409,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2E30AD2B-F137-4C12-92B6-E981A6B29B74}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SRC-C.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC-C/SRC-C.exe</Property>
