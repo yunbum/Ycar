@@ -8,8 +8,8 @@
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
 		<Property Name="server.tcp.port" Type="Int">0</Property>
-		<Property Name="server.tcp.serviceName" Type="Str">내 컴퓨터/VI 서버</Property>
-		<Property Name="server.tcp.serviceName.default" Type="Str">내 컴퓨터/VI 서버</Property>
+		<Property Name="server.tcp.serviceName" Type="Str">? ???/VI ??</Property>
+		<Property Name="server.tcp.serviceName.default" Type="Str">? ???/VI ??</Property>
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
@@ -78,7 +78,6 @@
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="ClearError.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ClearError.vi"/>
 				<Item Name="Close Input Device.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Close Input Device.vi"/>
 				<Item Name="closeJoystick.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/closeJoystick.vi"/>
 				<Item Name="closeKeyboard.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/closeKeyboard.vi"/>
@@ -156,7 +155,7 @@
 				<Item Name="IMAQ Write JPEG2000 File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG2000 File 2"/>
 				<Item Name="IMAQ Write PNG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write PNG File 2"/>
 				<Item Name="IMAQ Write TIFF File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF File 2"/>
-				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userDefined/High Color/IMAQdx.ctl"/>
+				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
 				<Item Name="Initialize Joystick.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Initialize Joystick.vi"/>
 				<Item Name="Initialize Mouse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Initialize Mouse.vi"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
@@ -174,6 +173,7 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVSceneTextAlignment.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVSceneTextAlignment.ctl"/>
 				<Item Name="LVTextureCoordinateArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVTextureCoordinateArrayTypeDef.ctl"/>
+				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 				<Item Name="mouseAcquire.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/mouseAcquire.vi"/>
 				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
@@ -253,7 +253,6 @@
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
-				<Item Name="TDMSAddBlankElem1d.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMSAddBlankElem1d.vi"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
@@ -333,20 +332,20 @@
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/F9P tester/F9P_tester.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">지원 디렉토리</Property>
+				<Property Name="Destination[1].destName" Type="Str">?? ????</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/F9P tester/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].itemID" Type="Str">{D2355B04-96DB-482D-AD85-D26195ECB193}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/GPS/F9P/test_F9P_ubx_gmap.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/? ???/GPS/F9P/test_F9P_ubx_gmap.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">한국교통대학교</Property>
+				<Property Name="TgtF_companyName" Type="Str">???????</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">F9P tester</Property>
 				<Property Name="TgtF_internalName" Type="Str">F9P tester</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">저작권 2021 한국교통대학교</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">??? 2021 ???????</Property>
 				<Property Name="TgtF_productName" Type="Str">F9P tester</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{506BB876-A3D9-4852-BCBC-A73C6752DF53}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">F9P_tester.exe</Property>
@@ -374,7 +373,7 @@
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MW-AHRSv1_tester/MW-AHRSv1_tester.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">지원 디렉토리</Property>
+				<Property Name="Destination[1].destName" Type="Str">?? ????</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/MW-AHRSv1_tester/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].itemID" Type="Str">{B6D24EEB-3B8A-451F-B10A-289C8C5D5335}</Property>
@@ -384,10 +383,10 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">한국교통대학교</Property>
+				<Property Name="TgtF_companyName" Type="Str">???????</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">MW-AHRSv1_tester</Property>
 				<Property Name="TgtF_internalName" Type="Str">MW-AHRSv1_tester</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">저작권 2021 한국교통대학교</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">??? 2021 ???????</Property>
 				<Property Name="TgtF_productName" Type="Str">MW-AHRSv1_tester</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{ED9572D9-02C3-4BE2-A8BE-A9AFD5D5F707}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">MW-AHRSv1_tester.exe</Property>
@@ -415,20 +414,20 @@
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC-C/SRC-C.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">지원 디렉토리</Property>
+				<Property Name="Destination[1].destName" Type="Str">?? ????</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC-C/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].itemID" Type="Str">{AED0433E-7FFF-4043-95B0-FEDBB2566062}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/Main_agv.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/? ???/Main_agv.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">한국교통대학교</Property>
+				<Property Name="TgtF_companyName" Type="Str">???????</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">SRC-C</Property>
 				<Property Name="TgtF_internalName" Type="Str">SRC-C</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">저작권 2021 한국교통대학교</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">??? 2021 ???????</Property>
 				<Property Name="TgtF_productName" Type="Str">SRC-C</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{67C54DD4-1C56-4D2A-A1B1-EF0778AEDF8C}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">SRC-C.exe</Property>
@@ -456,20 +455,20 @@
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ycar tester/ycar tester.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">지원 디렉토리</Property>
+				<Property Name="Destination[1].destName" Type="Str">?? ????</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ycar tester/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].itemID" Type="Str">{B6D24EEB-3B8A-451F-B10A-289C8C5D5335}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/AGV/ycar/test_serial-w-arduino.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/? ???/AGV/ycar/test_serial-w-arduino.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">한국교통대학교</Property>
+				<Property Name="TgtF_companyName" Type="Str">???????</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">ycar tester</Property>
 				<Property Name="TgtF_internalName" Type="Str">ycar tester</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">저작권 2021 한국교통대학교</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">??? 2021 ???????</Property>
 				<Property Name="TgtF_productName" Type="Str">ycar tester</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D0007CB5-88D4-475A-9712-2087AB4ACD54}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">ycar tester.exe</Property>
