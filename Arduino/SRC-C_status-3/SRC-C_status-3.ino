@@ -123,8 +123,8 @@ void setup()
   myDisplay.begin();
   myDisplay.setIntensity(0);
   myDisplay.setTextAlignment(PA_CENTER);
-  myDisplay.setPause(1000);
-  myDisplay.setSpeed(100);
+  myDisplay.setPause(400);
+  myDisplay.setSpeed(30);
   myDisplay.displayClear();
   
     Serial.begin(115200);
