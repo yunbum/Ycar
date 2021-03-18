@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gpx xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="ROUTEEDITOR1" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <desc>Created/Modified by using GPS Route Editor.</desc>
+    <link href="http://www.gpsnote.net">
+      <text>GpsNote.NET</text>
+    </link>
+  </metadata>
+  <trk>
+    <trkseg>
+      <trkpt lat="37.2923890145827" lon="127.148010134697">
+        <ele>-1</ele>
+      </trkpt>
+      <trkpt lat="37.2920646698944" lon="127.148042321205">
+        <ele>-1</ele>
+      </trkpt>
+      <trkpt lat="37.2915184019955" lon="127.148176431656">
+        <ele>-1</ele>
+      </trkpt>
+      <trkpt lat="37.2908398293161" lon="127.148321270943">
+        <ele>-1</ele>
+      </trkpt>
+      <trkpt lat="37.2905538880523" lon="127.148380279541">
+        <ele>-1</ele>
+      </trkpt>
+      <trkpt lat="37.2904002475215" lon="127.148391008377">
+        <ele>-1</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

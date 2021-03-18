@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gpx xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1" creator="ROUTEEDITOR1" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <desc>Created/Modified by using GPS Route Editor.</desc>
+    <link href="http://www.gpsnote.net">
+      <text>GpsNote.NET</text>
+    </link>
+  </metadata>
+  <wpt lat="37.3708925942857" lon="126.721541583538">
+    <name>stop-2</name>
+    <desc>start point</desc>
+  </wpt>
+  <wpt lat="37.3710418070754" lon="126.723459362984">
+    <name>stop-3</name>
+  </wpt>
+  <wpt lat="37.3704811917711" lon="126.721160709858">
+    <name>stop-1</name>
+  </wpt>
+  <trk>
+    <trkseg>
+      <trkpt lat="37.3701507891543" lon="126.720865666866">
+        <ele>-1</ele>
+      </trkpt>
+      <trkpt lat="37.371231520051" lon="126.721860766411">
+        <ele>-1</ele>
+      </trkpt>
+      <trkpt lat="37.3712485728792" lon="126.722220182419">
+        <ele>-1</ele>
+      </trkpt>
+      <trkpt lat="37.3712357832584" lon="126.722579598427">
+        <ele>-1</ele>
+      </trkpt>
+      <trkpt lat="37.3711121501448" lon="126.723298430443">
+        <ele>-1</ele>
+      </trkpt>
+      <trkpt lat="37.3709885168275" lon="126.723641753197">
+        <ele>-1</ele>
+      </trkpt>
+      <trkpt lat="37.3707540392866" lon="126.724086999893">
+        <ele>-1</ele>
+      </trkpt>
+      <trkpt lat="37.3705749832165" lon="126.724387407303">
+        <ele>-1</ele>
+      </trkpt>
+      <trkpt lat="37.3703405043831" lon="126.724821925163">
+        <ele>-1</ele>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
