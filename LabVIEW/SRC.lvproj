@@ -407,7 +407,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2E30AD2B-F137-4C12-92B6-E981A6B29B74}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SRC-C.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC-C/SRC-C.exe</Property>
@@ -416,10 +416,10 @@
 				<Property Name="Destination[1].destName" Type="Str">?? ????</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC-C/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AED0433E-7FFF-4043-95B0-FEDBB2566062}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{41B83012-B036-40A6-848C-53809E96C49C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/? ???/Main_agv.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/Main_agv.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
