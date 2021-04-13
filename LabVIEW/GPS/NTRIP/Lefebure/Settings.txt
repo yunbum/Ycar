@@ -2,10 +2,10 @@
 # Any line that starts with a # symbol will be ignored.
 # The only setting in this file should be the Data Path Location.
 
-Last Checked for Updates=2021-01-08 오후 8:49:35
-Serial Port Number=12
+Last Checked for Updates=2021-04-09 오후 4:55:42
+Serial Port Number=10
 Receiver Type=NoAutoConfig
-Serial Port Speed=115200
+Serial Port Speed=9600
 Serial Port Data Bits=8
 Serial Port Stop Bits=1
 NTRIP Use Manual GGA=No
