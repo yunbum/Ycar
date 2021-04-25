@@ -350,6 +350,46 @@
 				<Property Name="TgtF_targetfileName" Type="Str">F9P_tester.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
+			<Item Name="imaqdx tester" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{E3B4EE83-BBCE-41ED-8128-774177ADC2A4}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{69DC0323-72D0-494B-A298-65DBCC6F320D}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{1E024006-48CE-4309-8223-3290E244B6D5}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">imaqdx tester</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">Korean</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/imaqdx tester</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{9904EB20-9BF0-4407-8880-D0C940857054}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">imaqdx tester.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/imaqdx tester/imaqdx tester.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">지원 디렉토리</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/imaqdx tester/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D7E78D7C-2CF4-4B65-B2A6-DD767640E185}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/Vision/Camera/test_imaqdx_basic.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">imaqdx tester</Property>
+				<Property Name="TgtF_internalName" Type="Str">imaqdx tester</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">저작권 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">imaqdx tester</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{79719EFA-895B-4444-810F-8D795E5D0538}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">imaqdx tester.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 			<Item Name="MW-AHRSv1_tester" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{121567A1-31B1-44DE-841A-15D365ED0000}</Property>
