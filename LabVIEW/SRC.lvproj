@@ -37,6 +37,9 @@
 		<Item Name="Remote" Type="Folder" URL="../Remote">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="SLAM" Type="Folder" URL="../SLAM">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Subvi" Type="Folder" URL="../Subvi">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
