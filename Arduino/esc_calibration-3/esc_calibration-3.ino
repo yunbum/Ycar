@@ -14,12 +14,12 @@
 #include <Servo.h>
 // ---------------------------------------------------------------------------
 // Customize here pulse lengths as needed
-#define MIN_PULSE_LENGTH 1055 // Minimum pulse length in µs
+#define MIN_PULSE_LENGTH 1000 // Minimum pulse length in µs
 #define L1 1060
 #define L2 1065
 #define L3 1070
 #define L4 1075
-#define MAX_PULSE_LENGTH 1080 // Maximum pulse length in µs
+#define MAX_PULSE_LENGTH 2000 // Maximum pulse length in µs
 // ---------------------------------------------------------------------------
 Servo motA, motB, motC, motD;
 char data;
@@ -98,7 +98,7 @@ void test()
         motC.writeMicroseconds(i);
         motD.writeMicroseconds(i);
         
-        delay(2000);
+        delay(100);
     }
 
     Serial.println("STOP");
