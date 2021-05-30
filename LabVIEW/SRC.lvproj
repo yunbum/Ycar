@@ -16,6 +16,9 @@
 		<Item Name="AGV" Type="Folder" URL="../AGV">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="ASV" Type="Folder" URL="../ASV">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Ctrl" Type="Folder" URL="../Ctrl">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -41,9 +44,6 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Subvi" Type="Folder" URL="../Subvi">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="USV" Type="Folder" URL="../USV">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Vision" Type="Folder" URL="../Vision">
