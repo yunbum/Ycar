@@ -328,6 +328,46 @@
 			</Item>
 		</Item>
 		<Item Name="빌드 스펙" Type="Build">
+			<Item Name="ASV" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{3DD20465-1FD7-4853-AC9C-47E3FFFBAA0E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{BF5FD2AD-EB0C-4845-958D-1E137E219B9A}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{97042153-454C-42EA-A927-8501C08D3EC5}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ASV</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">Korean</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/ASV</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{FD461D34-F7EF-4220-8971-6044A46D5DD6}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">ASV-A1.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ASV/ASV-A1.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">지원 디렉토리</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ASV/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2A1ADFE7-C7DA-47C2-95EB-2C8A31CE7CFB}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/Main_agv.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">ASV</Property>
+				<Property Name="TgtF_internalName" Type="Str">ASV</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">저작권 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">ASV</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{BA47142A-0F7B-4E6A-9A80-22A963519F9C}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">ASV-A1.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 			<Item Name="F9P tester" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{ACEF470D-4CEB-48A2-ADFD-CE4A4D795956}</Property>
