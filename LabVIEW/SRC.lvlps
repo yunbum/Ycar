@@ -1,5 +1,5 @@
 [프로젝트 윈도우_데이터]
-ProjectExplorer.ClassicPosition[String] = "-193,2088,280,2377"
+ProjectExplorer.ClassicPosition[String] = "71,2467,639,2801"
 
 [ProjectWindow_Data]
 ProjectExplorer.ClassicPosition[String] = "52,66,551,375"
@@ -12,22 +12,6 @@ Cache_Path[Path] Line0002 = "E-E7E7-4C59-80EA-50456B3FD253}.txt"
 Cache_Path[Path] Line0001 = "/C/Users/WEGO/AppData/Local/Temp/AB_Cache_{DEB8615"
 Cache_Path[Path] Line0002 = "C-C13F-47E9-92F9-5C5E9C10135C}.txt"
 
-[AB_Cache_{B2BF292F-53FD-4AFD-8B12-C5D47BA4C171}]
-Cache_Path[Path] Line0001 = "/C/Users/WEGO/AppData/Local/Temp/AB_Cache_{B2BF292"
-Cache_Path[Path] Line0002 = "F-53FD-4AFD-8B12-C5D47BA4C171}.txt"
-
-[AB_Cache_{2DF107D0-9D8E-441F-BBBC-DC35A09C7005}]
-Cache_Path[Path] Line0001 = "/C/Users/WEGO/AppData/Local/Temp/AB_Cache_{2DF107D"
-Cache_Path[Path] Line0002 = "0-9D8E-441F-BBBC-DC35A09C7005}.txt"
-
-[AB_Cache_{6A1A94B9-B77D-4D3A-8F1B-728B244EF4CB}]
-Cache_Path[Path] Line0001 = "/C/Users/WEGO/AppData/Local/Temp/AB_Cache_{6A1A94B"
-Cache_Path[Path] Line0002 = "9-B77D-4D3A-8F1B-728B244EF4CB}.txt"
-
-[AB_Cache_{67527643-7CC4-4D01-ADFE-9BE240AF8BE1}]
-Cache_Path[Path] Line0001 = "/C/Users/WEGO/AppData/Local/Temp/AB_Cache_{6752764"
-Cache_Path[Path] Line0002 = "3-7CC4-4D01-ADFE-9BE240AF8BE1}.txt"
-
 [AB_Cache_{DB41AD66-C85B-4D22-9CA1-81194F5BEA74}]
 Cache_Path[Path] Line0001 = "/C/Users/WEGO/AppData/Local/Temp/AB_Cache_{DB41AD6"
 Cache_Path[Path] Line0002 = "6-C85B-4D22-9CA1-81194F5BEA74}.txt"
@@ -36,14 +20,6 @@ Cache_Path[Path] Line0002 = "6-C85B-4D22-9CA1-81194F5BEA74}.txt"
 Cache_Path[Path] Line0001 = "/C/Users/WEGO/AppData/Local/Temp/AB_Cache_{2E30AD2"
 Cache_Path[Path] Line0002 = "B-F137-4C12-92B6-E981A6B29B74}.txt"
 
-[AB_Cache_{1E024006-48CE-4309-8223-3290E244B6D5}]
-Cache_Path[Path] Line0001 = "/C/Users/WEGO/AppData/Local/Temp/AB_Cache_{1E02400"
-Cache_Path[Path] Line0002 = "6-48CE-4309-8223-3290E244B6D5}.txt"
-
-[AB_Cache_{9904EB20-9BF0-4407-8880-D0C940857054}]
-Cache_Path[Path] Line0001 = "/C/Users/WEGO/AppData/Local/Temp/AB_Cache_{9904EB2"
-Cache_Path[Path] Line0002 = "0-9BF0-4407-8880-D0C940857054}.txt"
-
 [AB_Cache_{97042153-454C-42EA-A927-8501C08D3EC5}]
 Cache_Path[Path] Line0001 = "/C/Users/WEGO/AppData/Local/Temp/AB_Cache_{9704215"
 Cache_Path[Path] Line0002 = "3-454C-42EA-A927-8501C08D3EC5}.txt"
@@ -51,4 +27,12 @@ Cache_Path[Path] Line0002 = "3-454C-42EA-A927-8501C08D3EC5}.txt"
 [AB_Cache_{FD461D34-F7EF-4220-8971-6044A46D5DD6}]
 Cache_Path[Path] Line0001 = "/C/Users/WEGO/AppData/Local/Temp/AB_Cache_{FD461D3"
 Cache_Path[Path] Line0002 = "4-F7EF-4220-8971-6044A46D5DD6}.txt"
+
+[AB_Cache_{3FF93476-A1CA-4EA5-8C79-C7F0D7238D1A}]
+Cache_Path[Path] Line0001 = "/C/Users/WEGO/AppData/Local/Temp/AB_Cache_{3FF9347"
+Cache_Path[Path] Line0002 = "6-A1CA-4EA5-8C79-C7F0D7238D1A}.txt"
+
+[AB_Cache_{7B662F0B-90FF-4DBD-9980-9F5D0E2171AA}]
+Cache_Path[Path] Line0001 = "/C/Users/WEGO/AppData/Local/Temp/AB_Cache_{7B662F0"
+Cache_Path[Path] Line0002 = "B-90FF-4DBD-9980-9F5D0E2171AA}.txt"
 

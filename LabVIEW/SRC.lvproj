@@ -328,6 +328,48 @@
 			</Item>
 		</Item>
 		<Item Name="빌드 스펙" Type="Build">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="SRC" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{C6D631E2-FCE2-4889-A314-4AD359DA160B}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{5884516E-ABBC-4258-9948-99248F7A93B9}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{DB41AD66-C85B-4D22-9CA1-81194F5BEA74}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">SRC</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">Korean</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/SRC</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{2E30AD2B-F137-4C12-92B6-E981A6B29B74}</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">SRC.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC/SRC.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">?? ????</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2CF24D6B-7B22-47C7-9AB1-854224831433}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/Main_agv.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">???????</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">SRC</Property>
+				<Property Name="TgtF_internalName" Type="Str">SRC</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">??? 2021 ???????</Property>
+				<Property Name="TgtF_productName" Type="Str">SRC</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{67C54DD4-1C56-4D2A-A1B1-EF0778AEDF8C}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">SRC.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 			<Item Name="ASV" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{3DD20465-1FD7-4853-AC9C-47E3FFFBAA0E}</Property>
@@ -368,85 +410,44 @@
 				<Property Name="TgtF_targetfileName" Type="Str">ASV-A1.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="F9P tester" Type="EXE">
+			<Item Name="GPS GNSS Tester with Ntrip-Client" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{ACEF470D-4CEB-48A2-ADFD-CE4A4D795956}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{AECFB89D-709C-4A87-9C62-850E3A03B38D}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{A1B07097-F27F-4536-AEFA-4329ABCCCA84}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{E88EA420-5F99-476F-89D1-783AE4E37985}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{B2BF292F-53FD-4AFD-8B12-C5D47BA4C171}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">F9P tester</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{3FF93476-A1CA-4EA5-8C79-C7F0D7238D1A}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">GPS GNSS Tester with Ntrip-Client</Property>
 				<Property Name="Bld_defaultLanguage" Type="Str">Korean</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/F9P tester</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/GPS GNSS Tester with Ntrip-Client</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{2DF107D0-9D8E-441F-BBBC-DC35A09C7005}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{7B662F0B-90FF-4DBD-9980-9F5D0E2171AA}</Property>
 				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">F9P_tester.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/F9P tester/F9P_tester.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">?? ????</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/F9P tester/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D2355B04-96DB-482D-AD85-D26195ECB193}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/? ???/GPS/F9P/test_F9P_ubx_gmap.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">???????</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">F9P tester</Property>
-				<Property Name="TgtF_internalName" Type="Str">F9P tester</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">??? 2021 ???????</Property>
-				<Property Name="TgtF_productName" Type="Str">F9P tester</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{506BB876-A3D9-4852-BCBC-A73C6752DF53}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">F9P_tester.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="imaqdx tester" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{E3B4EE83-BBCE-41ED-8128-774177ADC2A4}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{69DC0323-72D0-494B-A298-65DBCC6F320D}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{1E024006-48CE-4309-8223-3290E244B6D5}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">imaqdx tester</Property>
-				<Property Name="Bld_defaultLanguage" Type="Str">Korean</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/imaqdx tester</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{9904EB20-9BF0-4407-8880-D0C940857054}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">imaqdx tester.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/imaqdx tester/imaqdx tester.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">GPS GNSS Tester.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/GPS GNSS Tester with Ntrip-Client/GPS GNSS Tester.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">지원 디렉토리</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/imaqdx tester/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/GPS GNSS Tester with Ntrip-Client/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D7E78D7C-2CF4-4B65-B2A6-DD767640E185}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7B642815-EBE5-41EE-9901-38955F3640B6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/Vision/Camera/test_imaqdx_basic.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/GPS/Main GNSS-Gmap.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">imaqdx tester</Property>
-				<Property Name="TgtF_internalName" Type="Str">imaqdx tester</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">GPS GNSS Tester with Ntrip-Client</Property>
+				<Property Name="TgtF_internalName" Type="Str">GPS GNSS Tester with Ntrip-Client</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">저작권 2021 </Property>
-				<Property Name="TgtF_productName" Type="Str">imaqdx tester</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{79719EFA-895B-4444-810F-8D795E5D0538}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">imaqdx tester.exe</Property>
+				<Property Name="TgtF_productName" Type="Str">GPS GNSS Tester with Ntrip-Client</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{FFFBAB9B-E5D3-4AF5-9DC5-7243875054F1}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GPS GNSS Tester.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="MW-AHRSv1_tester" Type="EXE">
@@ -490,87 +491,74 @@
 				<Property Name="TgtF_targetfileName" Type="Str">MW-AHRSv1_tester.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SRC" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{C6D631E2-FCE2-4889-A314-4AD359DA160B}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{5884516E-ABBC-4258-9948-99248F7A93B9}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{DB41AD66-C85B-4D22-9CA1-81194F5BEA74}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">SRC</Property>
-				<Property Name="Bld_defaultLanguage" Type="Str">Korean</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/SRC</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{2E30AD2B-F137-4C12-92B6-E981A6B29B74}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">SRC.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC/SRC.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">?? ????</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2CF24D6B-7B22-47C7-9AB1-854224831433}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/Main_agv.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">???????</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">SRC</Property>
-				<Property Name="TgtF_internalName" Type="Str">SRC</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">??? 2021 ???????</Property>
-				<Property Name="TgtF_productName" Type="Str">SRC</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{67C54DD4-1C56-4D2A-A1B1-EF0778AEDF8C}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">SRC.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="ycar tester" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{39A4698D-7F8F-442A-9E6B-1C757CC1BD44}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{0C9A716F-44A1-454F-A17E-684588D176AF}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{6A1A94B9-B77D-4D3A-8F1B-728B244EF4CB}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">ycar tester</Property>
-				<Property Name="Bld_defaultLanguage" Type="Str">Korean</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/ycar tester</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{67527643-7CC4-4D01-ADFE-9BE240AF8BE1}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">ycar tester.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ycar tester/ycar tester.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">?? ????</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ycar tester/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B6D24EEB-3B8A-451F-B10A-289C8C5D5335}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/? ???/AGV/ycar/test_serial-w-arduino.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">???????</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">ycar tester</Property>
-				<Property Name="TgtF_internalName" Type="Str">ycar tester</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">??? 2021 ???????</Property>
-				<Property Name="TgtF_productName" Type="Str">ycar tester</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{D0007CB5-88D4-475A-9712-2087AB4ACD54}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">ycar tester.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			<Item Name="Ybbaek GNSS Tester" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">SRC</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{017D9F19-B484-4331-BDCB-CFACBD6CB5F4}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{1E3C5D81-5D10-421A-AE16-1FC585D2FB7D}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW 런타임 2019 SP1 f3</Property>
+				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX 컨테이너</Property>
+				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI 배포 프레임워크 2019</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI 에러 리포트 2019</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2019</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{8386B074-C90C-43A8-99F2-203BAAB4111C}</Property>
+				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI LabVIEW 웹 서버 2019</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
+				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2018</Property>
+				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
+				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">11</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{7D6295E5-8FB8-4BCE-B1CD-B5B396FA1D3F}</Property>
+				<Property Name="DistPartCount" Type="Int">1</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/Ybbaek GNSS Tester/Ybbaek GNSS Tester</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Ybbaek GNSS Tester</Property>
+				<Property Name="INST_defaultDir" Type="Str">{017D9F19-B484-4331-BDCB-CFACBD6CB5F4}</Property>
+				<Property Name="INST_installerName" Type="Str">GNSS-GPS install.exe</Property>
+				<Property Name="INST_language" Type="Int">18</Property>
+				<Property Name="INST_productName" Type="Str">Ybbaek GNSS Tester</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
+				<Property Name="MSI_arpCompany" Type="Str">RLmodel</Property>
+				<Property Name="MSI_arpContact" Type="Str">yummybum@gmail.com</Property>
+				<Property Name="MSI_arpURL" Type="Str">www.rlmodel</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{0EF04FB0-CDCE-4E23-846B-5C44F1CB0D9A}</Property>
+				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{DFEFE66E-DD6F-49E0-9981-3169CC0D7277}</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
 			</Item>
 		</Item>
 	</Item>
