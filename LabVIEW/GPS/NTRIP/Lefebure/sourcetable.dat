@@ -2,7 +2,7 @@
 Server: NTRIP Trimble Ntrip Caster 4.3
 Content-Type: text/plain
 Content-Length: 3498
-Date: Fri, 18 Jun 2021 01:21:12 UTC
+Date: Fri, 18 Jun 2021 05:17:33 UTC
 
 STR;SONP-RTCM32;SONP-RTCM32;RTCM 3.2;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO+GAL+BDS+QZS;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
 STR;GANS-RTCM32;GANS-RTCM32;RTCM 3.2;1004(1),1005/1007(5),1014(1, 1 msgs),1015(1, all msgs),1016(1, all msgs);2;GPS+GLO+GAL+BDS+QZS;;KOR;0;0;1;0;Trimble Pivot Platform;none;N;N;0;;
