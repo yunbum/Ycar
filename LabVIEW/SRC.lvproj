@@ -426,7 +426,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7B662F0B-90FF-4DBD-9980-9F5D0E2171AA}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GPS GNSS Tester.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/GPS GNSS Tester with Ntrip-Client/GPS GNSS Tester.exe</Property>
@@ -435,10 +435,10 @@
 				<Property Name="Destination[1].destName" Type="Str">지원 디렉토리</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/GPS GNSS Tester with Ntrip-Client/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7B642815-EBE5-41EE-9901-38955F3640B6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{58A49E2B-1C05-4BFD-8D32-CDE1D666ED64}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/GPS/Main GNSS-w-Ntrip.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
