@@ -2,4 +2,4 @@
 NTRIP Caster Port=2101
 NTRIP Username=seoul
 NTRIP Password=seoul
-NTRIP MountPoint=YONS-RTCM32-M5
+NTRIP MountPoint=Download Source Table
