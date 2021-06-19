@@ -438,7 +438,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{58A49E2B-1C05-4BFD-8D32-CDE1D666ED64}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/GPS/Main GNSS-w-Ntrip.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/GPS/RLmodel GNSS-NtripClient.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
