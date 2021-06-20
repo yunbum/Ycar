@@ -1,5 +1,5 @@
-﻿NTRIP Caster=gnss.eseoul.go.kr
-NTRIP Caster Port=2101
-NTRIP Username=seoul
-NTRIP Password=seoul
+﻿NTRIP Caster=fkp.ngii.go.kr
+NTRIP Caster Port=2201
+NTRIP Username=anold100
+NTRIP Password=ngii
 NTRIP MountPoint=Download Source Table
