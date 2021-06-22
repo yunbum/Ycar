@@ -1,5 +1,5 @@
-﻿NTRIP Caster=fkp.ngii.go.kr
+﻿NTRIP Caster=rtk2go.com
 NTRIP Caster Port=2201
-NTRIP Username=anold100
-NTRIP Password=ngii
+NTRIP Username=SNIP
+NTRIP Password=N-AGENT
 NTRIP MountPoint=Download Source Table
