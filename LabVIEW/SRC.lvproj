@@ -293,6 +293,7 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
+			<Item Name="Get Application Build Version.vi" Type="VI" URL="../../../../../Downloads/Get Application Build Version.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -410,44 +411,45 @@
 				<Property Name="TgtF_targetfileName" Type="Str">ASV-A1.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RLmodel GNSS NtripClient" Type="EXE">
+			<Item Name="RL Connect" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{A1B07097-F27F-4536-AEFA-4329ABCCCA84}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{E88EA420-5F99-476F-89D1-783AE4E37985}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3FF93476-A1CA-4EA5-8C79-C7F0D7238D1A}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">RLmodel GNSS NtripClient</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">RL Connect</Property>
 				<Property Name="Bld_defaultLanguage" Type="Str">Korean</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/RLmodel GNSS NtripClient</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/RL Connect</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7B662F0B-90FF-4DBD-9980-9F5D0E2171AA}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">RLmodel GNSS NtripClient.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/RLmodel GNSS NtripClient/RLmodel GNSS NtripClient.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">RL Connect.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/RL Connect/RL Connect.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">지원 디렉토리</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/RLmodel GNSS NtripClient/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/RL Connect/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{140FF9CD-E4CA-4C7D-B205-5BB88F4F30EF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{46ABE316-B1F9-4B82-AEAA-AB112910A9EA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/GPS/RL Connect.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">RLmodel GNSS NtripClient</Property>
-				<Property Name="TgtF_internalName" Type="Str">RLmodel GNSS NtripClient</Property>
+				<Property Name="TgtF_companyName" Type="Str">RLmodel</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">RL Connect</Property>
+				<Property Name="TgtF_internalName" Type="Str">RL Connect</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">저작권 2021 </Property>
-				<Property Name="TgtF_productName" Type="Str">RLmodel GNSS NtripClient</Property>
+				<Property Name="TgtF_productName" Type="Str">RL Connect</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{FFFBAB9B-E5D3-4AF5-9DC5-7243875054F1}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">RLmodel GNSS NtripClient.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">RL Connect.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="MW-AHRSv1_tester" Type="EXE">
