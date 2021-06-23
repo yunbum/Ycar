@@ -427,7 +427,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7B662F0B-90FF-4DBD-9980-9F5D0E2171AA}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">RL Connect.exe</Property>
@@ -558,7 +558,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{017D9F19-B484-4331-BDCB-CFACBD6CB5F4}</Property>
 				<Property Name="INST_installerName" Type="Str">LabVIEW2019 run-time engine.exe</Property>
 				<Property Name="INST_productName" Type="Str">LabVIEW2019 run-time engine installer</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.10</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.11</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">RLmodel</Property>
