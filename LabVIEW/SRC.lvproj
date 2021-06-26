@@ -346,7 +346,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2E30AD2B-F137-4C12-92B6-E981A6B29B74}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SRC.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC/SRC.exe</Property>
@@ -355,13 +355,18 @@
 				<Property Name="Destination[1].destName" Type="Str">?? ????</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/SRC/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2CF24D6B-7B22-47C7-9AB1-854224831433}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F9FBAE53-E3C4-42D5-8AC4-43BF7F10A29D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/Main_agv.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/내 컴퓨터/AGV</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">???????</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">SRC</Property>
 				<Property Name="TgtF_internalName" Type="Str">SRC</Property>
@@ -369,46 +374,6 @@
 				<Property Name="TgtF_productName" Type="Str">SRC</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{67C54DD4-1C56-4D2A-A1B1-EF0778AEDF8C}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">SRC.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="ASV" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{3DD20465-1FD7-4853-AC9C-47E3FFFBAA0E}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{BF5FD2AD-EB0C-4845-958D-1E137E219B9A}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{97042153-454C-42EA-A927-8501C08D3EC5}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">ASV</Property>
-				<Property Name="Bld_defaultLanguage" Type="Str">Korean</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/ASV</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{FD461D34-F7EF-4220-8971-6044A46D5DD6}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">ASV-A1.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ASV/ASV-A1.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">지원 디렉토리</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ASV/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7143986E-8EA5-4484-9E3A-DDB2A9892B43}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/Main_agv.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">ASV</Property>
-				<Property Name="TgtF_internalName" Type="Str">ASV</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">저작권 2021 </Property>
-				<Property Name="TgtF_productName" Type="Str">ASV</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{BA47142A-0F7B-4E6A-9A80-22A963519F9C}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">ASV-A1.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="RL Connect" Type="EXE">
